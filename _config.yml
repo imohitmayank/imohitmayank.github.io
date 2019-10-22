@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Mohit Mayank
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+# description: 
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -19,8 +19,8 @@ description: A virtual proof that I'm awesome
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
-  About Me: "aboutme"
+# navbar-links:
+#   About Me: "aboutme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -56,7 +56,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Mohit Mayank
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -64,10 +64,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "mohitmayank1@gmail.com"
+  facebook: evilmage93
+  github: imohitmayank
+  twitter: imohitmayank
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -89,12 +89,12 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "mohitmayank.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-150752882-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
