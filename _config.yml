@@ -124,7 +124,7 @@ gtag: "UA-150752882-1"
 
 # Staticman support
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository : "imohitmayank/imohitmayank.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
