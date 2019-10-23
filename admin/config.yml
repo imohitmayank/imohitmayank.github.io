@@ -1,8 +1,8 @@
 backend:
-  name: github
-  repo: imohitmayank/imohitmayank.github.io
-  branch: master
-  site_domain: stupefied-jepsen-ddd226.netlify.com
+  name: "github"
+  repo: "imohitmayank/imohitmayank.github.io"
+  branch: "master"
+  site_domain: "stupefied-jepsen-ddd226.netlify.com"
 media_folder: "img/"
 collections:
   - name: "blog" # Used in routes, e.g. /admin/collections/blog
