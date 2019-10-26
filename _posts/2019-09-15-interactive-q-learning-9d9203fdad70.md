@@ -16,7 +16,7 @@ author:
 Give me maximum reward :)
 
  **Go play** @ [Interactive Q
-learning](http://mohitmayank.com/interactive_q_learning)
+learning](http://mohitmayank.com/interactive_q_learning/q_learning.html)
 
  **Code** @ [Mohit's
 Github](https://github.com/imohitmayank/interactive_q_learning)
