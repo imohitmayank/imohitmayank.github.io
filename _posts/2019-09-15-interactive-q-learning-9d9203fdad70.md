@@ -1,6 +1,7 @@
 ---
 layout:	"post"
 categories:	"blog"
+comments: true
 title:	"Interactive Q learning"
 date:	2019-09-15
 thumbnail:	/img/1*gRqnRGbup0fUzU97Km0Hvg.gif
