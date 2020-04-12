@@ -2,11 +2,14 @@
 layout:	post
 title:	"Introduction to Processing with Bezier curves"
 date:	2019-08-04
+thumbnail: /img/1_AX_NJ942kUZR61LErkbsg.gif
 ---
 
-  #### A intuitive hands-on session on a visual arts sketchbook software by drawing the curves that puts life into animations!
+**A intuitive hands-on session on a visual arts sketchbook software by drawing the curves that puts life into animations!**
 
-![](/img/1_AX_NJ942kUZR61LErkbsg.gif)Quadratic Bezier curve in all its glory!#### Introduction
+![](/img/1_AX_NJ942kUZR61LErkbsg.gif)Quadratic Bezier curve in all its glory!
+
+#### Introduction
 
 In this post, we are are going to learn the basics of processing — its an interactive visual software and language used by students and artists around the global. Its open source, has OpenGL integration and supports multiple languages (Java, JS, Python, etc) & OS (Mac, Windows, Linux, Android, etc). On the other hand, Bezier curves are the building blocks in basically anything that has to do with curves in computer graphics and is used even in animations. I picked this example as this post will introduce us to an important mathematical topic in fields of polyline and with visualization we will also learn some basics of processing. Let’s get started!
 

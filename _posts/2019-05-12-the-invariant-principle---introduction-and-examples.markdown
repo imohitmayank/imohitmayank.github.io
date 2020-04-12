@@ -2,11 +2,14 @@
 layout:	post
 title:	"The Invariant principle — Introduction and examples"
 date:	2019-05-12
+thumbnail: /img/195QJ-FKY_M3hNrFb4Mg2pw@2x.jpeg
 ---
 
-  #### Understand the famous mathematical property which acted as bane for several complex real life problems and still kicks a punch here and there.
+**Understand the famous mathematical property which acted as bane for several complex real life problems and still kicks a punch here and there.**
 
-![](/img/195QJ-FKY_M3hNrFb4Mg2pw@2x.jpeg)#### Introduction
+![](/img/195QJ-FKY_M3hNrFb4Mg2pw@2x.jpeg)
+
+#### Introduction
 
 The dictionary defines ‘invariant’ as ‘never changing’, and well that’s really all there is. Invariant in mathematics, is a property held by a mathematical object, which remains same even after repetitive transformation of the object. If for some objects that property is different, then we can never reach from the original object to the newer ones, by trying the same transformations. This may sound tricky, but its really helpful and in some cases may even solve the problem.
 

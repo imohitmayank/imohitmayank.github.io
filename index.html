@@ -1,15 +1,39 @@
 ---
 layout: page
-title: Mohit Mayank
-subtitle: I try my best to explain things
 use-site-title: true
 ---
 
+<!-- typed--> 
+<script src="/js/jquery-1.11.2.min.js"></script> <!-- Typed.js uses old jquery ver -->
+<script src="/js/typed.js" type="text/javascript"></script>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["Data Science.", "Mathematics.", "Graphics.", "Machine Learning.", "Programming."],
+      typeSpeed: 100,
+      loop: true,
+      backDelay: 1000
+
+    });
+  });
+</script>
+
+<div class="mobile-js-hide">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="text-center">
+          <h1>I write about <span class="typed" style="color:#890000";></span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- site body (untouched)--> 
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>
+      <h3 class="post-title">{{ post.title }}</h3>
     </a>
 
     <p class="post-meta">

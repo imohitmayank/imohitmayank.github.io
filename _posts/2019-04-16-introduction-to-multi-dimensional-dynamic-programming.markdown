@@ -2,11 +2,14 @@
 layout:	post
 title:	"Introduction to Multi-dimensional Dynamic Programming"
 date:	2019-04-16
+thumbnail: /img/1qk3DcExU96FH6dVzuOAONw.jpeg
 ---
 
-  #### Understand the intuition behind the technique which solves miniature dependent problems to finally explain the problem in question.
+**Understand the intuition behind the technique which solves miniature dependent problems to finally explain the problem in question.**
 
-![](/img/1qk3DcExU96FH6dVzuOAONw.jpeg)#### What is dynamic programming?
+![](/img/1qk3DcExU96FH6dVzuOAONw.jpeg)
+
+#### What is dynamic programming?
 
 It’s a technique to solve a special type of problems, which can be broken down into many dependent sub-problems. By dependent, I mean to solve one sub-problem you need the answer of other sub-problems. This differentiate dynamic programming (dp) from other methods like divide and conquer, where we usually create independent sub-problems. One of the most intuitive explanation of dp defines its as a directed graph, where nodes are the sub-problems and the edges between two nodes denotes the dependency of one problem on another.
 

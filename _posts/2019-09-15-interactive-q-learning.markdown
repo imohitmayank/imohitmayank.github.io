@@ -2,11 +2,14 @@
 layout:	post
 title:	"Interactive Q learning"
 date:	2019-09-15
+thumbnail: /img/1gRqnRGbup0fUzU97Km0Hvg.gif
 ---
 
-  #### The best way to learn about Q tables…
+**The best way to learn about Q tables…**
 
-![](/img/1gRqnRGbup0fUzU97Km0Hvg.gif)Give me maximum reward :)**Go play** @ [Interactive Q learning](http://mohitmayank.com/interactive_q_learning)
+![](/img/1gRqnRGbup0fUzU97Km0Hvg.gif)Give me maximum reward :)
+
+**Go play** @ [Interactive Q learning](http://mohitmayank.com/interactive_q_learning/q_learning.html)
 
 **Code** @ [Mohit’s Github](https://github.com/imohitmayank/interactive_q_learning)
 

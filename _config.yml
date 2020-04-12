@@ -19,8 +19,9 @@ description: "Blogs and more!"
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-# navbar-links:
-#   About Me: "aboutme"
+navbar-links:
+  # About Me: "aboutme"
+  Resume | CV: "resume/resume.pdf"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -65,7 +66,6 @@ author:
 social-network-links:
   rss: true
   email: "mohitmayank1@gmail.com"
-  facebook: evilmage93
   github: imohitmayank
   twitter: imohitmayank
 #  reddit: yourname
@@ -84,7 +84,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
 
 # How to display the link to the website in the footer
