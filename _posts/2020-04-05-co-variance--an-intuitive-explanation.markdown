@@ -2,7 +2,8 @@
 layout:	post
 title:	"Co-variance: An intuitive explanation!"
 date:	2020-04-05
-featured-image: /img/1-IPqWOcHcL7mb2HXWNaCMw.gif
+image: /img/1-IPqWOcHcL7mb2HXWNaCMw.gif
+share-img: /img/1-IPqWOcHcL7mb2HXWNaCMw.gif
 ---
 
   **A comprehensive but simple guide which focus more on the idea behind the formula rather than the math itself — start building the block with expectation, mean, variance to finally understand the large picture i.e. co-variance**
