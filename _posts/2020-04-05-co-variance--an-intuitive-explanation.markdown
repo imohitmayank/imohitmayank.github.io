@@ -2,11 +2,14 @@
 layout:	post
 title:	"Co-variance: An intuitive explanation!"
 date:	2020-04-05
+featured-image: /img/1-IPqWOcHcL7mb2HXWNaCMw.gif
 ---
 
-  #### **A comprehensive but simple guide which focus more on the idea behind the formula rather than the math itself — start building the block with expectation, mean, variance to finally understand the large picture i.e. co-variance**
+  **A comprehensive but simple guide which focus more on the idea behind the formula rather than the math itself — start building the block with expectation, mean, variance to finally understand the large picture i.e. co-variance**
 
-![](/img/1-IPqWOcHcL7mb2HXWNaCMw.gif)co-variance calculation in all its glory!#### Introduction
+![](/img/1-IPqWOcHcL7mb2HXWNaCMw.gif)co-variance calculation in all its glory!
+
+#### Introduction
 
 Contrary to the popular belief, a formula is much more than just mathematical notations. It tries to express an idea, which get hidden under the math and is not evident unless you really look for it. The main problem with this kind of representation (as it usually happens with me), is that after sometime you tend to forget the formula. So, here is my attempt to explain one topic such that it sticks with the audience. Before diving right into it, I will try to explain some prerequisite topics. If you are already familiar with them, feel free to skip. If not, ride along :)
 
@@ -50,7 +53,9 @@ One interesting intuition emerges if we look closely at the numerator. But to ge
 
 ![](/img/1JaJuvswEpH2eNC-ol7IVZw.gif)Rectangles formed by the mean-point with rest of the points. Negative area is represented as red, positive area by green.Let’s also look at the different datasets and the rectangles formed. Also notice that the Figure 1 represents the case with largest area and hence largest co-variance (we discussed how they are proportional). As stated before, the behavior shown here is the ideal one i.e. as one variable increases, so does the other. And as points starts to deviate from this straight line behavior, as shown in the subsequent figures, the amount of red rectangles increases and hence the magnitude of co-variances decreases.
 
-![](/img/1FUagBYPBekw6tniKEKTA9A.png)A decrease in area from figure 1 to figure 4, due to change in expectation of “both variables should show similar behavior”#### Conclusion
+![](/img/1FUagBYPBekw6tniKEKTA9A.png)A decrease in area from figure 1 to figure 4, due to change in expectation of “both variables should show similar behavior”
+
+#### Conclusion
 
 When we represent a formula in an easily interpretable form such as a diagram or plot, it becomes much easier to understand and also easier to grasp hidden insights. For example if we represent co-variance in form of rectangles and their areas, we can quickly answer questions like which will have higher co-variance, an exponential decay or growth plot? Or what will happen if there are many +ve points near mean but one -ve point far away from the mean? (read, outliers). Try to think of these questions in the form of rectangles and areas and the answer will come out quickly. I hope it does :)
 
