@@ -4,7 +4,7 @@ title:	"Reinforcement Learning with Q tables"
 date:	2018-03-02
 ---
 
-  Reinforcement learning is an area of machine learning dealing with delayed reward. What does this means? Well, simple, let me explain this with an example. For this I am assuming you have heard…   ![](/img/1QVsnwatDVz8wcqJUsLJejw.png)Reinforcement learning — Agent’s action and environemet’s reply### What is reinforcement learning
+  Reinforcement learning is an area of machine learning dealing with delayed reward. What does this means? Well, simple, let me explain this with an example. For this I am assuming you have heard…   ![](/img/1QVsnwatDVz8wcqJUsLJejw.png)Reinforcement learning — Agent’s action and environment’s reply### What is reinforcement learning
 
 Reinforcement learning is an area of machine learning dealing with delayed reward.  
 **What does this means?** Well, simple, let me explain this with an example. For this I am assuming you have heard (better if you know) about neural networks or even a basic knowledge of regression or classification will do. So lets take an example of classification problem, you have been given a large chunk of images of dogs, and you have to design a system which will be able distinguish between an image by saying if it is of dog’s or not. Anyone with a little knowledge of machine learning will advice you to use convolution neural network and train with the provided images, and yeah it will work. But how? Well, without going into details (maybe an article on this later?!) you train the neural network on sample images first. While training the neural network learns the little features and pattern unique to dog’s image. During training you know the expected output, it is a dog images, so whenever the network predicts wrong we correct it. In a way, we know the reward for the provided images, if the prediction is right, we give positive rewards, if prediction is wrong, the reward is negative and corrective measures are taken to learn and adapt. So we know the immediate rewards.
@@ -32,7 +32,7 @@ A markov decision process consist of,
 3. **Probability of transition** P(s'|s, a): It is the probability of transition to s' state at time t+1 if we took action a in state s at time t. We were kinda sorted on this front, a left from tile 3 leads to tile 2, no question asked.
 4. **Reward** R(s'|s, a): It is the reward we receive if we transition from state s to state s' by taking action a.
 5. **Discount (Y)**: It is the discount factor, which represents the difference in future and present rewards.
-![](/img/1AekKnqbj6Er2AEVqP3541g.png)Change of state due to some action. As simple as that!So markov process can be understood as a collection of states S with some actions A possible from every state with some probability P. Each such action will lead to some reward R. If the probability and rewards are unknown, the problem is of reinforcement learning. Here we are going to solve a simple such problem using Q Learning or better the most basic implementation of it, the Q table.
+![](/img/1AekKnqbj6Er2AEVqP3541g.png)Change of state due to some action. As simple as that! So markov process can be understood as a collection of states S with some actions A possible from every state with some probability P. Each such action will lead to some reward R. If the probability and rewards are unknown, the problem is of reinforcement learning. Here we are going to solve a simple such problem using Q Learning or better the most basic implementation of it, the Q table.
 
 ### Q learning
 
@@ -137,5 +137,3 @@ After 1000 episodes, Q table some what looks like this,
 What if we increased the complexity of our game by having 2D boards with multiple holes, well that would be an interesting thing to do.
 
 **Note**: This note is from my personal [website](http://mohitmayank.com).
-
-  
