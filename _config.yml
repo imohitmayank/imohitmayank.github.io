@@ -29,7 +29,8 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/website_thumbnail.png"
+# avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -73,7 +74,7 @@ social-network-links:
   github: imohitmayank
   twitter: imohitmayank
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: imohitmayank
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -89,6 +90,7 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: false
+  linkedin: true
   linkedin: true
 
 # How to display the link to the website in the footer
