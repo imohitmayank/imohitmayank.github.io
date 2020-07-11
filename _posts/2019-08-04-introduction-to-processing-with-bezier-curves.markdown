@@ -2,7 +2,9 @@
 layout:	post
 title:	"Introduction to Processing with Bezier curves"
 date:	2019-08-04
-thumbnail: /img/1_AX_NJ942kUZR61LErkbsg.gif
+image: /img/1_AX_NJ942kUZR61LErkbsg.gif
+tag: [graphics, math, p5]
+description: A intuitive hands-on session on a visual arts sketchbook software by drawing the curves that puts life into animations!
 ---
 
 **A intuitive hands-on session on a visual arts sketchbook software by drawing the curves that puts life into animations!**

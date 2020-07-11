@@ -1,9 +1,26 @@
----
-layout: base
----
+<!DOCTYPE html>
 
-<div class="intro-header"></div>
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
 
-<div role="main" class="container">
+<html lang="en" class="h-100">
+
+{% include head.html %}
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  {% include navbar.html %}
   {{ content }}
-</div>
+  </main>
+
+  {% include footer.html %}
+  {% include analytics.html %}
+  {% include scripts.html %}
+
+</body>
+
+</html>

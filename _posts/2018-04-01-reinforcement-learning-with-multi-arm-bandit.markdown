@@ -2,10 +2,14 @@
 layout:	post
 title:	"Reinforcement Learning with Multi Arm Bandit"
 date:	2018-04-01
+description: Lets talk about the classical reinforcement learning problem which paved the way for delayed reward learning with balance between exploration and exploitation.
+tag: [reinforcement-learning, math, python]
+image: /img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg
 ---
 
-  Lets talk about the classical reinforcement learning problem which paved the way for delayed reward learning with balance between exploration and exploitation. The ‘bandit problem’ deals with…   ![](/img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg)
-> [Click here to share this article on LinkedIn »](https://www.linkedin.com/cws/share?url=https%3A%2F%2Fitnext.io%2Freinforcement-learning-with-multi-arm-bandit-decf442e02d2%3Futm_source%3Dmedium_sharelink%26utm_medium%3Dsocial%26utm_campaign%3Dbuffer)Lets talk about the classical reinforcement learning problem which paved the way for delayed reward learning with balance between exploration and exploitation.
+**Lets talk about the classical reinforcement learning problem which paved the way for delayed reward learning with balance between exploration and exploitation.**
+
+[](/img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg)
 
 #### What is Multi-Armed Bandit Problem?
 

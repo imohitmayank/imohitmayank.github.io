@@ -2,11 +2,16 @@
 layout:	post
 title:	"String similarity — the basic know your algorithms guide!"
 date:	2019-02-02
+image: /img/1qeHkVdXA3pDrtGVZSxRTkw.jpeg
+description: A basic introduction to most famous and widely used, and still least understood algorithms for string similarity.
+tag: [data-science, python]
 ---
 
   *A basic introduction to most famous and widely used, and still least understood algorithms for string similarity.*
 
-![](/img/1qeHkVdXA3pDrtGVZSxRTkw.jpeg)### Introduction
+![](/img/1qeHkVdXA3pDrtGVZSxRTkw.jpeg)
+
+### Introduction
 
 What is the best string similarity algorithm? Well, it’s quite hard to answer this question, at least without knowing anything else, like what you require it for. And even after having a basic idea, it’s quite hard to pinpoint to a good algorithm without first trying them out on different datasets. It’s a trial and error process. To make this journey simpler, I have tried to list down and explain the workings of the most basic string similarity algorithms out there. Give them a try, it may be what you needed all along.
 

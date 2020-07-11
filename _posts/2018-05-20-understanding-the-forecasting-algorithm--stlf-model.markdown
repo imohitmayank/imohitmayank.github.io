@@ -2,11 +2,16 @@
 layout:	post
 title:	"Understanding the forecasting algorithm: STLF Model"
 date:	2018-05-20
+description: Predicting the future based on historical information
+tag: [forecasting, math]
+image: /img/1QHB8AhRSDDKpCV1WU1xFag.png
 ---
 
   *Predicting the future based on historical information*
 
-![](/img/1QHB8AhRSDDKpCV1WU1xFag.png)#### Introduction
+![](/img/1QHB8AhRSDDKpCV1WU1xFag.png)
+
+#### Introduction
 
 Lets start with understanding what is forecasting all about? Well its the best prediction of the future values provided the insights learned from the historical data. And as simple as it may sound, every forecasting algorithms tries to do so, alas with different assumptions. The STLF algorithm in question tried to forecast into the future, based on assuming the presence of different properties of a time series and how deeply embedded these properties are. Lets understand these properties.
 

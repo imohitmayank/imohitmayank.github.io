@@ -2,7 +2,9 @@
 layout:	post
 title:	"Introduction to Multi-dimensional Dynamic Programming"
 date:	2019-04-16
-thumbnail: /img/1qk3DcExU96FH6dVzuOAONw.jpeg
+image: /img/1qk3DcExU96FH6dVzuOAONw.jpeg
+tag: [programming, math, python]
+description: Understand the intuition behind the technique which solves miniature dependent problems to finally explain the problem in question.
 ---
 
 **Understand the intuition behind the technique which solves miniature dependent problems to finally explain the problem in question.**
@@ -23,6 +25,7 @@ Broadly there are two ways to solve dp problems,
 
 1. **Top-down approach**: In this we apply recursive technique to drill down to all dependent sub-problems required to solve the main problem. Here we start with the top i.e. the final problem, but to find it we must solve all sub-problems hence go down to solve them all. After combining them all, we have the final solution. For example in the last section, we started with dist(D) i.e. the main problem, and solved dist(B), dist(C), dist(A), etc to find it.
 2. **Bottom-up approach**: Here we begin from the base case i.e. the lowest possible sub-problem, iterate forward till we hit the final problem. For example, if we had started from S then traversed to C, A and then further up till we hit D, it would have been bottom-up approach.
+
 #### Whats up with the dimensions?
 
 We defined sub-problems and their dependency, other important entities in dp are the dependent elements or variables. The count of these variables defines the dimension of the problem. If a problem is dependent on 1 variable, its a 1D dp problem, similarly in case of 2 variables its 2D dp problem. Lets go through examples for each,

@@ -2,9 +2,14 @@
 layout:	post
 title:	"Reinforcement Learning with Q tables"
 date:	2018-03-02
+image: /img/1QVsnwatDVz8wcqJUsLJejw.png
+tag: [reinforcement-learning, math, python]
+description: Introduction to Q learning which is used by AI Agents to predict best next move.
 ---
 
-  Reinforcement learning is an area of machine learning dealing with delayed reward. What does this means? Well, simple, let me explain this with an example. For this I am assuming you have heard…   ![](/img/1QVsnwatDVz8wcqJUsLJejw.png)Reinforcement learning — Agent’s action and environment’s reply### What is reinforcement learning
+![](/img/1QVsnwatDVz8wcqJUsLJejw.png)
+
+### What is reinforcement learning
 
 Reinforcement learning is an area of machine learning dealing with delayed reward.  
 **What does this means?** Well, simple, let me explain this with an example. For this I am assuming you have heard (better if you know) about neural networks or even a basic knowledge of regression or classification will do. So lets take an example of classification problem, you have been given a large chunk of images of dogs, and you have to design a system which will be able distinguish between an image by saying if it is of dog’s or not. Anyone with a little knowledge of machine learning will advice you to use convolution neural network and train with the provided images, and yeah it will work. But how? Well, without going into details (maybe an article on this later?!) you train the neural network on sample images first. While training the neural network learns the little features and pattern unique to dog’s image. During training you know the expected output, it is a dog images, so whenever the network predicts wrong we correct it. In a way, we know the reward for the provided images, if the prediction is right, we give positive rewards, if prediction is wrong, the reward is negative and corrective measures are taken to learn and adapt. So we know the immediate rewards.

@@ -2,9 +2,11 @@
 layout:	post
 title:	"Graphical solution to system of equation(s)"
 date:	2018-09-22
+description: A little in-depth intuition behind solving any system of equations by plotting and finding the solution space.
+tag: [math]
 ---
 
-  #### A little in-depth intuition behind solving any system of equations by plotting and finding the solution space.
+  **A little in-depth intuition behind solving any system of equations by plotting and finding the solution space.**
 
 #### Introduction
 

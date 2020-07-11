@@ -2,11 +2,16 @@
 layout:	post
 title:	"Introduction to Genetic Algorithm"
 date:	2018-12-01
+image: /img/1wNKDWlvV5e-rYFuR_ihqNw.jpeg
+description: Getting one step closer to the evolutionary biological process, to infer how the natural phenomenon can be employed to solve complex computer science problems
+tag: [programming, math, python]
 ---
 
-  #### Getting one step closer to the evolutionary biological process, to infer how the natural phenomenon can be employed to solve complex computer science problems.
+  **Getting one step closer to the evolutionary biological process, to infer how the natural phenomenon can be employed to solve complex computer science problems.**
 
-![](/img/1wNKDWlvV5e-rYFuR_ihqNw.jpeg)#### Introduction
+![](/img/1wNKDWlvV5e-rYFuR_ihqNw.jpeg)
+
+#### Introduction
 
 Before we get started, we need to understand what’s really genetic about the genetic algorithm. Based on the phenomenon of natural selection and evolution, genetic algorithm tries to leverage the process of genetic crossover, mutation, among others, to highly optimize the process of the evolution, in computer science’s case the process of convergence to a problem’s solution.
 

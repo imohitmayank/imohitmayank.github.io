@@ -2,15 +2,18 @@
 layout:	post
 title:	"Ranking algorithms — know your multi-criteria decision solving techniques!"
 date:	2020-06-23
-tag: python, optimization, machine-learning, data-science
-thumbnail: https://cdn-images-1.medium.com/max/11520/1*c999rZ5HXEHWupDPffCrVg.jpeg
+tag: [optimization, machine-learning, data-science, python]
+image: https://cdn-images-1.medium.com/max/11520/1*c999rZ5HXEHWupDPffCrVg.jpeg
+description: Let’s go through some of the basic algorithms to solve complex decision-making problems influenced by multiple criteria. We will discuss why we need such techniques and explore available algorithms in the cool skcriteria python package
 ---
 
-**Let’s go through some of the basic algorithms to solve complex decision-making problems influenced by multiple criteria. We will discuss why we need such techniques and explore available algorithms in the cool skcriteria python package**
+Let’s go through some of the basic algorithms to solve complex decision-making problems influenced by multiple criteria. We will discuss why we need such techniques and explore available algorithms in the cool skcriteria python package
 
 ![](https://cdn-images-1.medium.com/max/11520/1*c999rZ5HXEHWupDPffCrVg.jpeg)
 *Photo by [Joshua Golde](https://unsplash.com/@joshgmit) from [Unsplash](https://unsplash.com/photos/qIu77BsFdds)*
 
+<!-- {% include elements/figure.html image="https://cdn-images-1.medium.com/max/11520/1*c999rZ5HXEHWupDPffCrVg.jpeg" caption="Photo by [Joshua Golde](https://unsplash.com/@joshgmit) from [Unsplash](https://unsplash.com/photos/qIu77BsFdds)" %}
+ -->
 ## Introduction
 
 Suppose you have a decision to make — like buying a house, or a car, or even a guitar. You don’t want to choose randomly or get biased by someone’s suggestion, but want to make an educated decision. For this, you gathered some information about the entity you want to buy (let’s say it’s a car). So you have a list of N cars with their price information. As usual, we won’t want to spend more, we can just sort the cars by their price (in ascending order) and pick the top one (with the smallest price), and we are done! This was decision making with a single criterion. But alas if life is so easy :) We would also like the car to have good mileage, better engine, faster acceleration (if you want to race), and some more. Here, you want to choose a car with the smallest price, but the highest mileage and acceleration, and so on. This problem can’t be so easily solved by simple sorting. Enter multi-criteria decision-making algorithms!

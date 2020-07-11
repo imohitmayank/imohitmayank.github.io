@@ -2,11 +2,16 @@
 layout:	post
 title:	"Reinforcement Learning with Multi Arm Bandit (Part 2)"
 date:	2018-05-06
+description: Let make the problem a little bit more….complex!
+tag: [reinforcement-learning, math, python]
+image: /img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg
 ---
 
-  #### Let make the problem a little bit more….complex!
+**Let make the problem a little bit more….complex!**
 
-![](/img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg)#### Recap
+![](/img/1wYi8N9qBc8Ga3cGpSYofmQ.jpeg)
+
+#### Recap
 
 This is in continuation of the original [post](https://itnext.io/reinforcement-learning-with-multi-arm-bandit-decf442e02d2), I highly recommend to go through it first, where we understood the intuition of multi arm bandit and tried to apply e-greedy algorithms to solve a representative problem. But the world isn’t that simple. There are some factors, introducing which, the problem changes completely and the solution has to be redefined. We will pick where we left, introduce new problem, show how our beloved algorithm fails and try to build intuition of what might help in the case.
 

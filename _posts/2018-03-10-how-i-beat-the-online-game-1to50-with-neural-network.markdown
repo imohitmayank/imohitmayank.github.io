@@ -2,6 +2,9 @@
 layout:	post
 title:	"How I beat the online game 1to50 with neural network"
 date:	2018-03-10
+image: /img/16dDXQCtKjaVAh-_8qmyNHw.gif
+description: Let's fool the machine
+tag: [computer-vision, python]
 ---
 
   ![](/img/16dDXQCtKjaVAh-_8qmyNHw.gif)The 1to50 bot — in all its glory!Well it all started when some of my friends started playing this online game [1to50](http://zzzscore.com/1to50) and they challenged me to beat their score. So the rule is quite simple, start clicking the blocks with numbers, in incremental order, as fast as you can. Seems quite easy, right!? It did to me too, but my friends were scoring pretty good in it (try it, and if you consider 30–35 secs good). And I had to beat that, and if you may, in style :)

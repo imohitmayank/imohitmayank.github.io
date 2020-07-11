@@ -2,9 +2,11 @@
 layout:	post
 title:	"Intro to Bitcoin — the economics and technology behind it"
 date:	2018-03-23
+descrirption: A brief history lesson of money and the basics of bitcoin.
+tag: [bitcoin, economy]
 ---
 
-  #### Introduction
+#### Introduction
 
 Bitcoin has been in news for some time now, be it for the mysterious founder Satoshi Nakamoto (nobody know who he/she is) or its ripple in the socio-economical world due to the ever fluctuating price or its underlining open source peer to peer blockchain technology. From major institutions shunning it, to countries trying to replicate their election with the tech; from being a prominent currency in the dark markets, to tech giants like Microsoft and PayPal supporting it, it has been quite a ride. It has grasped the interest of economist and technologist alike and has the potential to disrupt the very fabric of banking system. Here let us try to understand the intuition behind the bitcoin, the technology which powers it and how all it works together.
 

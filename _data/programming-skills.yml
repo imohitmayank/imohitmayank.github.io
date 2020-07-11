@@ -1,0 +1,15 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: R
+  percentage: 80
+  color:
+
+- name: D3
+  percentage: 70
+  color: dark
+
+- name: HTML/CSS/Javascript
+  percentage: 70
+  color: dark

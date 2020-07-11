@@ -2,10 +2,12 @@
 layout:	post
 title:	"Interactive Q learning"
 date:	2019-09-15
-thumbnail: /img/1gRqnRGbup0fUzU97Km0Hvg.gif
+image: /img/1gRqnRGbup0fUzU97Km0Hvg.gif
+tag: [interaction, doc, reinforcement-learning, p5]
+description: The best way to learn about Q tables…
 ---
 
-**The best way to learn about Q tables…**
+The best way to learn about Q tables…
 
 ![](/img/1gRqnRGbup0fUzU97Km0Hvg.gif)Give me maximum reward :)
 

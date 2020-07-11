@@ -2,9 +2,14 @@
 layout:	post
 title:	"Building a chatbot with Rasa"
 date:	2018-08-18
+description: Get your hands dirty by creating a fully functional AI Chatbot
+tag: [chatbot, ai, python]
+image: img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg
 ---
 
-  ![](/img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg)#### Introduction
+  ![](/img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg)
+
+#### Introduction
 
 Before getting stared with the development lets first dwell into the requirements and why we drilled down to the mentioned technology. I wanted to build a chatbot which is able to learn the intent of the user, interact intelligently, perform actions if users asks so, provide efficient learning mechanism and most importantly doesn’t use any paid services. There are a bunch of online services (like [wit.ai](https://wit.ai/)) which provide nice NLU features but charge for traffic. This lead me to search for an open-source framework which can provides sufficient independence in building the bot. One such tool is [Rasa](https://rasa.com/).
 

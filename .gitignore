@@ -1,9 +1,12 @@
-# project
-_site
-.sass-cache
-.vagrant
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# general
-.DS_Store
-Thumbs.db
-ehthumbs.db
+# Ruby Gems
+.bundle
+Gemfile.lock
+
+# Log Files
+*.log

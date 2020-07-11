@@ -2,11 +2,16 @@
 layout:	post
 title:	"Introduction to Linear programming with Python"
 date:	2018-09-13
+description: From a brief overview to full implementation on a use case, lets try to understand the need, means and deeds of the classical approach.
+tag: [programming, math, python]
+image: /img/1EbDHkkUkiGR4yHbNNvpVZQ.jpeg
 ---
 
-  #### From a brief overview to full implementation on a use case, lets try to understand the need, means and deeds of the classical approach.
+  **From a brief overview to full implementation on a use case, lets try to understand the need, means and deeds of the classical approach.**
 
-![](/img/1EbDHkkUkiGR4yHbNNvpVZQ.jpeg)#### Introduction
+![](/img/1EbDHkkUkiGR4yHbNNvpVZQ.jpeg)
+
+#### Introduction
 
 Linear programming is the technique used to maximize or minimize a function. The idea is to optimize a complex function by best representing them with linear relationships. In simpler terms, we try to optimize (to maximize or minimize) a function denoted in linear terms and bounded by linear constraints.
 

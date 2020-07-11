@@ -2,7 +2,9 @@
 layout:	post
 title:	"The Invariant principle — Introduction and examples"
 date:	2019-05-12
-thumbnail: /img/195QJ-FKY_M3hNrFb4Mg2pw@2x.jpeg
+image: /img/195QJ-FKY_M3hNrFb4Mg2pw@2x.jpeg
+description: Understand the famous mathematical property which acted as bane for several complex real life problems and still kicks a punch here and there.
+tag: [math]
 ---
 
 **Understand the famous mathematical property which acted as bane for several complex real life problems and still kicks a punch here and there.**

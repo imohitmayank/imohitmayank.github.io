@@ -2,11 +2,16 @@
 layout:	post
 title:	"Introduction to Acoustic event detection technique"
 date:	2019-02-14
+tag: [acoustics, data-analysis, python]
+description: Accurately identifying the occurrence of acoustic signatures, like birds chipping, human speaking, etc., from large audio files.
+image: /img/1lrjDQeBFPsgZnWMQuW6HVQ.jpeg
 ---
 
   Accurately identifying the occurrence of acoustic signatures, like birds chipping, human speaking, etc., from large audio files.
 
-![](/img/1lrjDQeBFPsgZnWMQuW6HVQ.jpeg)#### Introduction
+![](/img/1lrjDQeBFPsgZnWMQuW6HVQ.jpeg)
+
+#### Introduction
 
 Big data provides multiple applications, provided we clear the first and maybe the biggest hurdle of all, identifying interesting patterns or even segregating the meaningful parts from the junk. Ecologist are facing the same problem, with access to hours of recording of forest with all of its elements in its entirety, how can we separate out the important ones, like the sound of a tiger approaching or birds chipping. This calls for an intelligent technique to separate out the garbage which may include background noise of forest like sound of wind blowing, leaves rustling or event distant traffic (in current context). By removing all these, we may able to identify the interesting parts, which categories as acoustic events.
 
