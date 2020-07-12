@@ -4,6 +4,7 @@ title:	"Intro to Bitcoin — the economics and technology behind it"
 date:	2018-03-23
 descrirption: A brief history lesson of money and the basics of bitcoin.
 tag: [bitcoin, economy]
+image: /img/1V8KMHNd72fS_jiYbb3H-WQ.png
 ---
 
 #### Introduction

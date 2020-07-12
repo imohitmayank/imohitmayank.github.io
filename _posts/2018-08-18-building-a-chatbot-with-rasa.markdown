@@ -4,7 +4,7 @@ title:	"Building a chatbot with Rasa"
 date:	2018-08-18
 description: Get your hands dirty by creating a fully functional AI Chatbot
 tag: [chatbot, ai, python]
-image: img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg
+image: /img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg
 ---
 
   ![](/img/1R1HRk-lpEcHaFz2fiiCC3Q.jpeg)

@@ -4,6 +4,7 @@ title:	"Graphical solution to system of equation(s)"
 date:	2018-09-22
 description: A little in-depth intuition behind solving any system of equations by plotting and finding the solution space.
 tag: [math]
+image: /img/1ig7PdA7xCVTJd--kqdpXzQ.png
 ---
 
   **A little in-depth intuition behind solving any system of equations by plotting and finding the solution space.**
