@@ -10,6 +10,7 @@ repository          : imohitmayank/imohitmayank     # Change to <your-username>/
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-feed
 
 avatar: "/img/website_thumbnail.png"
 
