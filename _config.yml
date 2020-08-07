@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Mohit Mayank
 description         : >-
-                      Data Scientist @ TCS :bowtie:, Technologist, ML enthusiast, programmer and budding musician
+                      Data Scientist @ TCS :bowtie:, Technologist, ML enthusiast, programmer and budding guitarist 🎸
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : imohitmayank/imohitmayank     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : YoussefRaafatNasry/portfolYOU
