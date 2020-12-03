@@ -1,5 +1,6 @@
-// The Chaos Game
-// Daniel Shiffman
+// The Chaos Game Controller
+// by, Mohit Mayank
+// Inspired by, TheCodingTrain (Daniel Shiffman)
 // Part 1: https://youtu.be/7gNzMtYo9n4
 // https://thecodingtrain.com/CodingChallenges/123.1-chaos-game
 // Part 2: https://youtu.be/A0NHGT̥ggoOQ
