@@ -56,6 +56,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  visual:
+    output: true
+    permalink: /visual/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -76,6 +79,11 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "visual"
     values:
       layout: "page"
   - scope:                                              # For Documentation Only
