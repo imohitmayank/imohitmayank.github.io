@@ -90,3 +90,8 @@ youtube:
   url   : https://www.youtube.com/
   icon  : fab fa-youtube
   color : ff0000
+
+googlescholar:
+  url: https://scholar.google.com/
+  icon: fas fa-graduation-cap
+  color: db4437
