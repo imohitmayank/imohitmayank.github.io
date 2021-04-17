@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 <br>
-Hi its **{{ site.author.name }}**  :bowtie: :wave:, I am **Data Scientist**  :books: @ Tata Research and Development and Design Centre. :european_castle:<br><br>
-Based out of TCS Innovations labs  :office: and being a part of a product based project, I have experienced and learned from the best of both worlds  :earth_asia:. While my research connection taught me how to identify and solve problems systematically, the product connection helped me understand and appreciate the business angle :moneybag:. Overall, I try to find the optimum between them  :triumph:
+Hi its **{{ site.author.name }}**  :bowtie: :wave:, I am **Senior Data Scientist** :books: @ [AlgoAnalytics](https://algoanalytics.com/). Previously I was part of Tata Research and Development and Design Centre. :european_castle:<br><br>
+I have been part of two completly different and wild worlds - Research and Software Development. While my research connection taught me how to identify and solve problems systematically, the software dev connection helped me understand and appreciate the business angle :moneybag:. Overall, I try to find the optimum between them  :triumph:
 
 Have a look at my 
 - :scroll: [resume](../resume.pdf)
