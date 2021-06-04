@@ -87,12 +87,12 @@ defaults:
       layout: "page"
   - scope:
       path: ""
-      type: "research"
+      type: "lectures"
     values:
       layout: "page"
   - scope:
       path: ""
-      type: "lectures"
+      type: "research"
     values:
       layout: "page"
   - scope:                                              # For Documentation Only
