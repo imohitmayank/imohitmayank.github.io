@@ -57,9 +57,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  visual:
+  lectures:
     output: true
-    permalink: /visual/:name
+    permalink: /lectures/:name
+  research:
+    output: true
+    permalink: /research/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -84,7 +87,12 @@ defaults:
       layout: "page"
   - scope:
       path: ""
-      type: "visual"
+      type: "research"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "lectures"
     values:
       layout: "page"
   - scope:                                              # For Documentation Only

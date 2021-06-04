@@ -26,14 +26,14 @@
     {%- assign project_desc = project.description -%}
     {%- assign project_url  = project.html_url -%}
 
-    {% include projects/project-card.html %}
+    {% include research/project-card.html %}
 
     <script>get_tools("{{ site.github.owner_name }}/{{ remote_project }}")</script>
 
   {% endfor %}
 
   <!-- Local Projects -->
-  {% for project in site.visual %}
+  {% for project in site.research %}
 
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
@@ -48,7 +48,7 @@
       {%- assign project_url = project.url | relative_url -%}
     {%- endif -%}
 
-    {% include visual/project-card.html %}
+    {% include research/project-card.html %}
 
   {% endfor %}
 
