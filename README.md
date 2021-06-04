@@ -13,7 +13,6 @@ More commands: https://jekyllrb.com/docs/usage/
 
 1. In `_config.yml`, include section in collection around line 55 and in default around line 78
 2. Add a `_{section_name}` folder (same as `_projects`)
-3. Add `{section_name}` folder inside `_includes` (same as `_includes/projects`)
-  - Modify `index.html` at line 36 and 51
+3. Add `{section_name}` folder inside `_includes` (same as `_includes/projects`). Modify `index.html` at line 36 and 51
 4. Add a new `{section_name}.html` file (same as `projects.html`) in `/pages`
-4. Clean, build and serve
+5. Clean, build and serve
