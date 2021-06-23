@@ -57,9 +57,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  lectures:
+  learning:
     output: true
-    permalink: /lectures/:name
+    permalink: /learning/:name
   research:
     output: true
     permalink: /research/:name
@@ -87,7 +87,7 @@ defaults:
       layout: "page"
   - scope:
       path: ""
-      type: "lectures"
+      type: "learning"
     values:
       layout: "page"
   - scope:
