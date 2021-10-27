@@ -63,6 +63,9 @@ collections:
   research:
     output: true
     permalink: /research/:name
+  socialmedia:
+    output: true
+    permalink: /socialmedia/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -99,7 +102,12 @@ defaults:
       path: ""                                          # For Documentation Only
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
+      layout: "element"   
+  - scope:
+      path: ""
+      type: "socialmedia"
+    values:
+      layout: "page"                              # For Documentation Only
   - scope:
       path: ""
       type: "posts"
