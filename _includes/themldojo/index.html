@@ -1,0 +1,38 @@
+<div style="text-align:center">
+  <img src="../img/the_ml_dojo_logo.png">
+  <h1>        
+     The ML Dojo
+  </h1>
+</div>
+<div class="newsletter-description">
+  <p>Welcome to <strong>The ML Dojo</strong>, the single place to get <strong>daily updates</strong> on the latest in the field of <strong>Artificial Intelligence</strong> 🧠 and <strong>Machine Learning</strong> 🤖. Welcome to the world of AI enthusiasts! 🥋</p>
+  <p>Let’s start the discussion with one question - How do you keep yourself updated with the latest happenings in AI or ML? (really think about it for a second before moving forward)</p>
+  <p>I have asked the same question to a lot of AI/ML practitioners, and a quick summarization of their responses includes — following top scientists or researchers or AI labs on Twitter, finding good articles on Medium, or recent papers on Arxiv, or posts in Reddit, to even scanning through interesting questions on stack exchange! (not a complete list by any means 😊).</p>
+  <p>Performing one or two of the above practices can be possible, but are you sure you are not missing something important by skipping the rest? But the flip side is more daunting — are you okay spending hours daily just browsing through multiple platforms, hoping to stumble upon something interesting? If your answer is NO, The ML Dojo is here to help 🖖.</p>
+  <p>With this context, I am ready to answer some of your burning questions,</p>
+  <h4>What is ML Dojo?</h4>
+  <p>ML Dojo is a daily report on the latest and upcoming research, experiments, topics, articles, papers, … (you name it), in the field of Artificial Intelligence and Machine learning.</p>
+  <h4>Why ML Dojo?</h4>
+  <p>There are two main reasons to subscribe,</p>
+  <ol>
+     <li>
+        <p>We publish daily! Yes, no more waiting for the weekly or monthly newsletters.</p>
+     </li>
+     <li>
+        <p>We cover a wide variety of platforms! To make sure you don’t miss anything important, we keep an eye out for the latest feed on Twitter, Reddit, Stack Exchange, Medium, and more coming soon!</p>
+     </li>
+  </ol>
+  <p>In short, you get the best of all of the worlds and that too daily! 🌎</p>
+  <p>Don't forget to let me know about you <a href="https://forms.gle/pufZVNEpKQQwpGAK9">here</a>, so I can keep you up-to-date with latest development of <strong>The ML Dojo</strong>!</p>
+</div>
+
+<hr>
+
+<div class="card-group mt-2">
+
+  {% assign sorted_posts = site.themldojo | sort: "date" | reverse %}
+  {% for post in sorted_posts %}
+    {% include themldojo/post-card.html %}
+  {% endfor %}
+  
+</div>
