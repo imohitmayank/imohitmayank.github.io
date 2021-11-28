@@ -22,16 +22,14 @@ date: 2021-11-22
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1462392299132833794"></a></blockquote>
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1462724445227794436"></a></blockquote>
+
 <blockquote class="twitter-tweet"><a href="https://twitter.com/slashML/status/1462445848109850625"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1462670220359700488"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1462467811414982660"></a></blockquote>
-
 # Reddit 
 
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qypj5f/ill_never_find_an_entry_level_job?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qz7qec/d_aigenerated_art_of_doorways_and_fields?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qz81xj/q_can_someone_help_explain_hypothesis_testing?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
@@ -40,34 +38,37 @@ date: 2021-11-22
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qzbkvl/how_to_present_to_non_data_science_colleagues?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qzi9cs/how_to_handle_gdpr_requests_for_data_stored_in_s3?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -76,15 +77,6 @@ date: 2021-11-22
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
       <p><b>Author:</b> <a href='https://frederickirwin.medium.com/'>Frederick Irwin</a><br><b>Claps:</b> 337<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> This Metaverse coin set to explode in Q4 with Solana Support.</p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://towardsdatascience.com/cdps-are-not-the-future-f8a3f56114b6'>CDPs are not the future.</a></h4> 
-  <div class="part2">
-      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@tameemiftikhar92'>Tameem Iftikhar</a><br><b>Claps:</b> 254<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> And yes, there is a better way …</p> 
   </div>
   </div>
       
@@ -108,10 +100,19 @@ date: 2021-11-22
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/an-introduction-to-probability-sampling-methods-7a936e486b5'>An introduction to Probability Sampling Methods</a></h4> 
+  <h4><a href='https://medium.com/@florianernst59/finding-why-pytorch-lightning-made-my-training-4x-slower-ae64a4720bd1'>Finding why Pytorch Lightning made my training 4x slower.</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://eugenia-anello.medium.com/'>Eugenia Anello</a><br><b>Claps:</b> 105<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> Why sampling methods are essentials for your Data Science’s journey</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@florianernst59'>Florian Ernst</a><br><b>Claps:</b> 102<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> 🤔 What happened?</p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://towardsdatascience.com/setting-up-apples-new-m1-macbooks-for-machine-learning-f9c6d67d2c0f'>Setting up Apple’s new M1 MacBooks for Machine Learning</a></h4> 
+  <div class="part2">
+      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
+      <p><b>Author:</b> <a href='https://pascaljanetzky.medium.com/'>Pascal Janetzky</a><br><b>Claps:</b> 101<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> From virtual environments to PyCharm</p> 
   </div>
   </div>
       
@@ -138,15 +139,6 @@ date: 2021-11-22
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553072/do-time-series-models-fall-under-glm'>Do Time Series Models fall under GLM?</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 50<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">time-series</span> <span class="badge badge-dark">generalized-linear-model</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
   <h4><a href='https://datascience.stackexchange.com/questions/104344/good-classifiers-when-having-many-labels'>Good classifiers when having many labels</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
@@ -160,6 +152,15 @@ date: 2021-11-22
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> stats<br><b>Views:</b> 21<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">r</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://datascience.stackexchange.com/questions/104342/derive-backpropagation-for-prelu'>Derive backpropagation for PreLU</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> datascience<br><b>Views:</b> 14<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">neural-network</span> <span class="badge badge-dark">backpropagation</span> <span class="badge badge-dark">activation-function</span></p> 
   </div>
   </div>
       

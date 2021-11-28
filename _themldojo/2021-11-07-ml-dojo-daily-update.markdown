@@ -8,15 +8,15 @@ date: 2021-11-07
 
 # Twitter 
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/hawelti/status/1456896660810964995"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/brokenbottleboy/status/1457270777900945410"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/fchollet/status/1457204021018517510"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/drStuartGilmour/status/1457247184106053633"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/NextGenPlayer/status/1457081613049901083"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/svpino/status/1456939628943101955"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/BobGolen/status/1457169860430110724"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/huggingface/status/1457067318555590664"></a></blockquote>
 
@@ -38,36 +38,37 @@ date: 2021-11-07
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qo0mun/learning_sql_beyond_the_basics?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qo8uxn/zillow_prophet_time_series_prices?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qolp6y/e_to_what_degree_can_my_legally_blind_son_with?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -99,19 +100,19 @@ date: 2021-11-07
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/the-data-science-climate-change-curriculum-e93b2ba1b969'>The Data Science + Climate Change Curriculum</a></h4> 
+  <h4><a href='https://medium.com/nexon/being-specific-about-the-virtual-world-we-are-building-9c085fc35a0'>Being Specific about the (Virtual) World We are Building</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://towardsdatascience.medium.com/'>TDS Editors</a><br><b>Claps:</b> 76<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> A one-stop resource for data scientists who want to learn more about climate-related topics, from obtaining and analyzing climate data to…</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@owen.mahoney'>Owen Mahoney</a><br><b>Claps:</b> 64<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> 日本語版は下にスクロールしてください</p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://medium.com/nexon/being-specific-about-the-virtual-world-we-are-building-9c085fc35a0'>Being Specific about the (Virtual) World We are Building</a></h4> 
+  <h4><a href='https://towardsdatascience.com/convolutional-neural-network-good-understanding-of-the-layers-and-an-image-classification-example-a280bc02c13e'>Convolutional Neural Network: Good Understanding of the Layers and an Image Classification Example</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@owen.mahoney'>Owen Mahoney</a><br><b>Claps:</b> 64<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> 日本語版は下にスクロールしてください</p> 
+      <p><b>Author:</b> <a href='https://rashida00.medium.com/'>Rashida Nasrin Sucky</a><br><b>Claps:</b> 23<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> Packed with a lot of Information</p> 
   </div>
   </div>
       

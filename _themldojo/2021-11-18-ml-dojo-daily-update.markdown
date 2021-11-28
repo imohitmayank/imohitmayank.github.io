@@ -20,17 +20,19 @@ date: 2021-11-18
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/GoogleAI/status/1461059684513767434"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/ylecun/status/1460915711505797124"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/MetaAI/status/1461058043484028935"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/TensorFlow/status/1461076705125310464"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/GoogleAI/status/1461112017323012097"></a></blockquote>
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/TensorFlow/status/1461046484900659203"></a></blockquote>
+
 # Reddit 
 
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qwjgcj/hi_rdataengineering_your_memes_are_pretty_good_i?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qwmizo/d_benchmarking_deep_learning_with_m1_pro_gpu?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qw6htq/after_exactly_one_month_and_three_days_of?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
@@ -38,36 +40,35 @@ date: 2021-11-18
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qw9oec/airflow_be_like?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qw0k69/loving_datascience_struggling_with_my_masters?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -99,6 +100,15 @@ date: 2021-11-18
       
   <br>
   <div class="card">
+  <h4><a href='https://towardsdatascience.com/data-governance-has-a-serious-branding-problem-7925b909712b'>Data Governance Has a Serious Branding Problem</a></h4> 
+  <div class="part2">
+      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
+      <p><b>Author:</b> <a href='https://prukalpa.medium.com/'>Prukalpa</a><br><b>Claps:</b> 152<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> The story of where data governance started and how everything went wrong</p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
   <h4><a href='https://towardsdatascience.com/context-managers-the-best-managers-for-python-developers-a5809fb7e428'>Context Managers; The Best Managers for Python Developers</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
@@ -106,18 +116,18 @@ date: 2021-11-18
   </div>
   </div>
       
-  <br>
-  <div class="card">
-  <h4><a href='https://towardsdatascience.com/why-i-became-a-data-scientist-over-a-data-engineer-968e750acf7'>Why I Became a Data Scientist over a Data Engineer</a></h4> 
-  <div class="part2">
-      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://datascience2.medium.com/'>Matt Przybyla</a><br><b>Claps:</b> 96<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> To help you to decide on your career</p> 
-  </div>
-  </div>
-      
 # StackExchange 
 
 
+  <br>
+  <div class="card">
+  <h4><a href='https://stats.stackexchange.com/questions/552707/what-are-the-dangers-of-using-non-sufficient-statistics'>What are the &quot;Dangers&quot; of using &quot;Non-Sufficient&quot; Statistics?</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 79<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">estimation</span> <span class="badge badge-dark">inference</span> <span class="badge badge-dark">sufficient-statistics</span></p> 
+  </div>
+  </div>
+      
   <br>
   <div class="card">
   <h4><a href='https://cs.stackexchange.com/questions/145850/is-there-a-more-efficient-way-to-obtain-the-optimal-input-sequence-in-this-finit'>Is there a more efficient way to obtain the optimal input sequence in this finite-state system</a></h4> 
@@ -138,19 +148,10 @@ date: 2021-11-18
       
   <br>
   <div class="card">
-  <h4><a href='https://cs.stackexchange.com/questions/145843/graph-coloring-problem-with-violations'>Graph coloring problem with violations</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> cs<br><b>Views:</b> 50<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">graphs</span> <span class="badge badge-dark">optimization</span> <span class="badge badge-dark">colorings</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/552637/scale-invariant-statistical-distances'>Scale Invariant Statistical Distances</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/552724/the-contradiction-in-kpss-and-hegy-test'>The contradiction in KPSS and HEGY test</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 30<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">distance</span> <span class="badge badge-dark">metric</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 17<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">time-series</span> <span class="badge badge-dark">stationarity</span> <span class="badge badge-dark">seasonality</span> <span class="badge badge-dark">unit-root</span> <span class="badge badge-dark">kpss-test</span></p> 
   </div>
   </div>
       

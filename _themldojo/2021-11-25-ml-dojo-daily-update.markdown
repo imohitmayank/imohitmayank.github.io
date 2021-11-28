@@ -38,36 +38,37 @@ date: 2021-11-25
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r1kzu7/d_how_to_build_a_knowledge_graph_with_neo4j_and?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/r1f8oy/i_got_it_for_my_brother_who_works_at_the_computer?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r1sdpa/d_is_it_possible_to_work_as_an_independent?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -129,10 +130,10 @@ date: 2021-11-25
       
   <br>
   <div class="card">
-  <h4><a href='https://datascience.stackexchange.com/questions/104428/imbalanced-dataset-train-test-split-before-and-after-smote'>Imbalanced Dataset: Train/test split before and after SMOTE</a></h4> 
+  <h4><a href='https://cs.stackexchange.com/questions/146081/deciding-whether-a-given-flow-is-unique-in-o-lvert-v-rvert-lvert-e-rvert'>Deciding whether a given flow is unique in $O(\lvert V \rvert + \lvert E \rvert)$ time</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> datascience<br><b>Views:</b> 251<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">python</span> <span class="badge badge-dark">classification</span> <span class="badge badge-dark">class-imbalance</span> <span class="badge badge-dark">overfitting</span> <span class="badge badge-dark">smote</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> cs<br><b>Views:</b> 31<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">algorithms</span> <span class="badge badge-dark">graphs</span> <span class="badge badge-dark">optimization</span> <span class="badge badge-dark">network-flow</span></p> 
   </div>
   </div>
       
@@ -147,19 +148,19 @@ date: 2021-11-25
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553583/recurrent-neural-networks-of-unspecified-size'>Recurrent neural networks of unspecified size</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/553643/i-dont-completely-understand-the-concept-of-pca-analysis'>I don&#39;t completely understand the concept of PCA analysis</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 11<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">neural-networks</span> <span class="badge badge-dark">rnn</span> <span class="badge badge-dark">backpropagation</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 93<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">mathematical-statistics</span> <span class="badge badge-dark">econometrics</span></p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553495/is-it-possible-to-calculate-or-find-out-what-the-original-distribution-was-of-a'>Is it possible to calculate or find out what the original distribution was of a dataset?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/553583/recurrent-neural-networks-of-unspecified-size'>Recurrent neural networks of unspecified size</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 51<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">r</span> <span class="badge badge-dark">distributions</span> <span class="badge badge-dark">truncation</span> <span class="badge badge-dark">truncated-normal-distribution</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 11<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">neural-networks</span> <span class="badge badge-dark">rnn</span> <span class="badge badge-dark">backpropagation</span></p> 
   </div>
   </div>
       

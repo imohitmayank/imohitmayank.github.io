@@ -12,11 +12,11 @@ date: 2021-11-08
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/code/status/1457428301266370563"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/brokenbottleboy/status/1457270777900945410"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/drStuartGilmour/status/1457247184106053633"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/80Level/status/1457360172658135051"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/svpino/status/1457317348529082372"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/ValaAfshar/status/1457410509553217542"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/slashML/status/1457417408323325955"></a></blockquote>
 
@@ -24,7 +24,7 @@ date: 2021-11-08
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/huggingface/status/1457446947669876736"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1457273612117762050"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/berkeley_ai/status/1457638925133025284"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/stanfordnlp/status/1457585493923676167"></a></blockquote>
 
@@ -34,40 +34,41 @@ date: 2021-11-08
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qordhq/dwhat_is_something_you_took_the_time_to_learn?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qolp6y/e_to_what_degree_can_my_legally_blind_son_with?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qp9bra/project_jorldy_opensource_reinforcement_learning?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qoxm2r/how_did_you_learn_about_writing_optimized_and?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qp78iv/dwhat_is_something_you_took_the_time_to_learn_and?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -108,10 +109,10 @@ date: 2021-11-08
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/design-considerations-for-a-web-app-4b8ebb58315'>Design Considerations for A Web App</a></h4> 
+  <h4><a href='https://towardsdatascience.com/geographic-heatmaps-in-google-data-studio-a603c09a3d02'>Geographic heatmaps in Google Data Studio</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@nadimkawwa'>Nadim Kawwa</a><br><b>Claps:</b> 7<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> From Jupyter Notebooks to Fully Functional Web App</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@alessandroantini'>Alessandro Antini</a><br><b>Claps:</b> 10<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> In my last article, it was shown how to bin geographical coordinates into square tiles that could be effectively visualized on a map. The…</p> 
   </div>
   </div>
       
@@ -147,19 +148,19 @@ date: 2021-11-08
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/551375/is-the-cross-validation-error-more-informative-compared-to-aic-bic-and-the-li'>Is the Cross Validation Error more &quot;Informative&quot; compared to AIC, BIC and the Likelihood Test?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/551312/who-first-coined-the-phrase-correlation-does-not-imply-causation'>Who first coined the phrase &quot;correlation does not imply causation&quot;?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 275<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">probability</span> <span class="badge badge-dark">distributions</span> <span class="badge badge-dark">inference</span> <span class="badge badge-dark">error</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 82<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">correlation</span> <span class="badge badge-dark">causality</span> <span class="badge badge-dark">history</span></p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/551312/who-first-coined-the-phrase-correlation-does-not-imply-causation'>Who first coined the phrase &quot;correlation does not imply causation&quot;?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/551375/is-the-cross-validation-error-more-informative-compared-to-aic-bic-and-the-li'>Is the Cross Validation Error more &quot;Informative&quot; compared to AIC, BIC and the Likelihood Test?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 82<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">correlation</span> <span class="badge badge-dark">causality</span> <span class="badge badge-dark">history</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 275<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">probability</span> <span class="badge badge-dark">distributions</span> <span class="badge badge-dark">inference</span> <span class="badge badge-dark">error</span></p> 
   </div>
   </div>
       

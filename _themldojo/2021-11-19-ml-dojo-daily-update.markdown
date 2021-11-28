@@ -36,38 +36,39 @@ date: 2021-11-19
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qx1ydp/people_who_primarily_build_dashboards_in_their?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qwmizo/d_benchmarking_deep_learning_with_m1_pro_gpu?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qwt9ni/r_graph_neural_networks_through_the_lens_of?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datasets/comments/qwvdg4/the_billion_dollar_torrent_all_nfts_from_ethereum?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -99,19 +100,19 @@ date: 2021-11-19
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/data-governance-has-a-serious-branding-problem-7925b909712b'>Data Governance Has a Serious Branding Problem</a></h4> 
+  <h4><a href='https://medium.com/itau-data/produtos-de-machine-learning-9df731408a89'>Produtos de Machine Learning</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://prukalpa.medium.com/'>Prukalpa</a><br><b>Claps:</b> 152<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> The story of where data governance started and how everything went wrong</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@vitorlzda'>Vitor Lzda</a><br><b>Claps:</b> 141<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> Muito se fala de produto no mundo de tecnologia. Pensar que seu software será usado por pessoas assim como canetas, chapéus e chinelos…</p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://medium.com/itau-data/produtos-de-machine-learning-9df731408a89'>Produtos de Machine Learning</a></h4> 
+  <h4><a href='https://towardsdatascience.com/you-do-not-become-better-by-employing-fancy-techniques-but-by-working-on-the-fundamentals-17d5c471c69c'>You do not become better by employing fancy techniques but by working on the fundamentals</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@vitorlzda'>Vitor Lzda</a><br><b>Claps:</b> 141<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> Muito se fala de produto no mundo de tecnologia. Pensar que seu software será usado por pessoas assim como canetas, chapéus e chinelos…</p> 
+      <p><b>Author:</b> <a href='https://pandeyparul.medium.com/'>Parul Pandey</a><br><b>Claps:</b> 124<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> An interview with Radek Osmulski, author of the book- Meta Learning: How To Learn Deep Learning And Thrive In The Digital World</p> 
   </div>
   </div>
       
@@ -124,15 +125,6 @@ date: 2021-11-19
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> cs<br><b>Views:</b> 1262<br><b>Score:</b> 6<br><b>Tags:</b> <span class="badge badge-dark">graphs</span> <span class="badge badge-dark">weighted-graphs</span> <span class="badge badge-dark">minimum-spanning-tree</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/552707/what-are-the-dangers-of-using-non-sufficient-statistics'>What are the &quot;Dangers&quot; of using &quot;Non-Sufficient&quot; Statistics?</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 79<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">estimation</span> <span class="badge badge-dark">inference</span> <span class="badge badge-dark">sufficient-statistics</span></p> 
   </div>
   </div>
       
@@ -160,6 +152,15 @@ date: 2021-11-19
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> cs<br><b>Views:</b> 48<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">polynomial-time</span> <span class="badge badge-dark">partitions</span> <span class="badge badge-dark">subset-sum</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://stats.stackexchange.com/questions/552729/given-a-mean-and-standard-deviation-how-to-find-sample-size'>Given a mean and standard deviation how to find sample size?</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 188<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">mean</span> <span class="badge badge-dark">standard-deviation</span></p> 
   </div>
   </div>
       

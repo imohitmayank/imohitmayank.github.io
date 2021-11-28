@@ -34,40 +34,41 @@ date: 2021-11-04
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qm6jpa/cmv_data_engineers_should_code_not_build_adhoc?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datasets/comments/qmgcjh/we_just_built_a_free_and_opensource_database_of?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qlsf3s/how_would_you_improve_the_data_science?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qm06ct/p_iris_open_source_photos_platform_powered_by?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qlwt5y/did_you_know_in_airflow_that_you_can_make?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -147,19 +148,19 @@ date: 2021-11-04
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/550755/facebook-prophet-gives-a-very-high-mape-how-can-i-improve-it'>Facebook prophet gives a very high MAPE, how can I improve it?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/550878/are-low-sample-studies-redundant-most-of-the-time'>Are low sample studies redundant most of the time?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 787<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">time-series</span> <span class="badge badge-dark">forecasting</span> <span class="badge badge-dark">mape</span> <span class="badge badge-dark">prophet</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 222<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">sample-size</span></p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/550758/accuracy-percentage-wise-of-a-regression-model'>Accuracy percentage-wise of a regression model</a></h4> 
+  <h4><a href='https://cs.stackexchange.com/questions/145401/prove-by-induction-tn-t-lfloor-fracn2-rfloorn2-in-theta-log-2-n'>Prove by induction $T(n) = T(\lfloor\frac{n}{2}\rfloor)+n^2 \in \Theta (\log_2 n)$</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 20<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">python</span> <span class="badge badge-dark">r-squared</span> <span class="badge badge-dark">accuracy</span> <span class="badge badge-dark">mape</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> cs<br><b>Views:</b> 48<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">algorithms</span> <span class="badge badge-dark">complexity-theory</span> <span class="badge badge-dark">time-complexity</span> <span class="badge badge-dark">algorithm-analysis</span> <span class="badge badge-dark">induction</span></p> 
   </div>
   </div>
       

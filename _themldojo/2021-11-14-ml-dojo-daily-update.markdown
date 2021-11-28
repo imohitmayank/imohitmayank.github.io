@@ -8,15 +8,15 @@ date: 2021-11-14
 
 # Twitter 
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/Your_NLP_Coach/status/1459434844258283520"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/rasbt/status/1459577884100767753"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/MikeTamir/status/1459612288562962434"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/PinakiLaskar/status/1459495869460353027"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/DonCryptoDraper/status/1459465360374173699"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/MikeTamir/status/1459612288562962434"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/Khulood_Almani/status/1459479906627194882"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/monicaonairtalk/status/1459508616847925254"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/ylecun/status/1459570248433246211"></a></blockquote>
 
@@ -32,44 +32,54 @@ date: 2021-11-14
 
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qt2tws/pr_rocketrecycling_with_reinforcement_learning?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qsw47b/r_stylegan_of_all_trades_image_manipulation_with?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qt10az/project_pytorch_implementations_of_37_gan_papers?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qt2cwm/just_venting?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qt9yql/p_using_talknet_to_clone_dreams_voice?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qt3c66/usefulness_of_excel?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
+  <br>
+  <div class="card">
+  <h4><a href='https://bertmclee.medium.com/2021%E6%B5%B7%E5%85%A7%E5%A4%96%E6%95%B8%E6%93%9A%E7%A7%91%E5%AD%B8-%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E6%B1%82%E8%81%B7%E5%85%A8%E6%94%BB%E7%95%A5-%E5%A3%B9-%E6%88%90%E7%B8%BE%E5%96%AE-%E6%94%BB%E7%95%A5-%E8%B3%87%E6%BA%90-c36b0138b86b'>2021海內外數據科學、資料分析求職全攻略(壹) — 成績單、攻略、資源</a></h4> 
+  <div class="part2">
+      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
+      <p><b>Author:</b> <a href='https://bertmclee.medium.com/'>Bert Lee // 李慕家</a><br><b>Claps:</b> 584<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> How I passed 26 interviews & got 6 DA/DS offer from Disney+, Bytedance, SeaMoney, LINE TV, DiDi, Kuaishou — Part I</p> 
+  </div>
+  </div>
+      
   <br>
   <div class="card">
   <h4><a href='https://medium.com/@aimanshariff.97/generative-adversarial-networks-and-some-of-their-applications-a6dd42e4cb78'>Generative Adversarial Networks and their Applications</a></h4> 
@@ -99,19 +109,10 @@ date: 2021-11-14
       
   <br>
   <div class="card">
-  <h4><a href='https://medium.com/@ubirevera/it-runs-on-envy-my-first-month-on-social-media-68236746ff96'>It Runs on Envy: My First Month on Social Media</a></h4> 
+  <h4><a href='https://medium.com/mlearning-ai/benfords-law-can-be-a-game-changer-9893e660363a'>Benford’s law can be a game changer!!!</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@ubirevera'>Maria Luisa Palma</a><br><b>Claps:</b> 56<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> The devil is inside of us. And we created social media to let it out. It is the perfect envy-creating vehicle. It’s genius.</p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://towardsdatascience.com/5-mistakes-to-avoid-when-first-learning-to-program-431dc1fa190a'>5 Mistakes to Avoid When First Learning to Program</a></h4> 
-  <div class="part2">
-      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://saraametwalli.medium.com/'>Sara A. Metwalli</a><br><b>Claps:</b> 46<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> Fast progress in the start doesn’t mean an efficient learning process</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@harshmishraandheri'>Harsh Mishra</a><br><b>Claps:</b> 61<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> Today in this blog I wanted to share some information about benford’s law. We will see what it is and how it could be a gamechanger as we…</p> 
   </div>
   </div>
       
@@ -156,10 +157,10 @@ date: 2021-11-14
       
   <br>
   <div class="card">
-  <h4><a href='https://datascience.stackexchange.com/questions/104094/is-it-scientifically-rigorous-to-create-a-multimodal-ml-model-with-data-from-mul'>Is it Scientifically Rigorous to create a multimodal ML Model with data from multiple sources</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/552150/is-meta-analysis-the-future-of-bayesian-statistics'>Is Meta Analysis the Future of Bayesian Statistics?</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> datascience<br><b>Views:</b> 24<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">dataset</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 239<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">distributions</span> <span class="badge badge-dark">bayesian</span> <span class="badge badge-dark">meta-analysis</span></p> 
   </div>
   </div>
       

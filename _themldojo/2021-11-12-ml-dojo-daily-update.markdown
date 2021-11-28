@@ -12,11 +12,11 @@ date: 2021-11-12
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/benedictevans/status/1458862043507961859"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/osanseviero/status/1458732681865400321"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/BJP4India/status/1459040635910975488"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/hvgoenka/status/1458763839357341696"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/ak92501/status/1458976291240267777"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/ylecun/status/1458858662517170179"></a></blockquote>
 
@@ -34,40 +34,41 @@ date: 2021-11-12
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qrygiv/r_phd_postdoc_positions_at_ut_austin_ml_for?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qs7g4t/d_causality_research_in_ml_is_a_scam_warning?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qs5igm/d_how_do_i_lower_my_standards_for_code_quality_to?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qry9c2/q_good_undergraduate_books_for_mathematical?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qrq7mb/how_and_where_did_you_learn_sql_from_and_become?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qrta43/free_web3_analytics_and_datasets?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -129,6 +130,15 @@ date: 2021-11-12
       
   <br>
   <div class="card">
+  <h4><a href='https://datascience.stackexchange.com/questions/104065/how-to-evaluate-the-similarity-of-two-columns-containing-strings'>How to evaluate the similarity of two columns containing strings?</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> datascience<br><b>Views:</b> 63<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">text</span> <span class="badge badge-dark">text-processing</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
   <h4><a href='https://stats.stackexchange.com/questions/551821/is-my-understanding-of-the-metropolis-sampling-algorithm-correct'>Is my understanding of the Metropolis sampling algorithm correct?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
@@ -147,19 +157,10 @@ date: 2021-11-12
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/551878/why-not-always-use-polynomial-regression-to-solve-classification-problems'>Why not always use Polynomial Regression to solve classification problems?</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 43<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">logistic</span> <span class="badge badge-dark">classification</span> <span class="badge badge-dark">polynomial</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://cs.stackexchange.com/questions/145642/uses-of-of-the-one-variable-fragment-of-first-order-logic-aka-s5'>Uses of of the one-variable fragment of first-order logic aka S5</a></h4> 
+  <h4><a href='https://cs.stackexchange.com/questions/145660/why-cant-i-use-a-polynomial-time-reduction-for-proving-p-completeness'>Why can&#39;t I use a polynomial-time reduction for proving P-completeness?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> cs<br><b>Views:</b> 37<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">first-order-logic</span> <span class="badge badge-dark">modal-logic</span></p> 
+      <p><b>Source:</b> cs<br><b>Views:</b> 155<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">complexity-theory</span> <span class="badge badge-dark">turing-machines</span> <span class="badge badge-dark">reductions</span></p> 
   </div>
   </div>
       

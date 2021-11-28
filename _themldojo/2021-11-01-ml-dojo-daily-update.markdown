@@ -8,15 +8,15 @@ date: 2021-11-01
 
 # Twitter 
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/amazing_physics/status/1454704813460135940"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/omarsar0/status/1454766482232123393"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/JoseStoropoli/status/1454739416765849600"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/omarsar0/status/1454762624919515136"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/MichaelPSenger/status/1454839832169963521"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/60Minutes/status/1454960223807025152"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/TechInsider/status/1454875385741594627"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/Foone/status/1454832316371464194"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/techreview/status/1455044842640199680"></a></blockquote>
 
@@ -32,7 +32,7 @@ date: 2021-11-01
 
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qjpcut/project_these_plants_do_not_exist_using_stylegan2?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qjn0vg/100circles_words_to_paintings_via_nightcafe?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qkb6ga/plagiarism_case_detected_iclr_2022_newsdiscussion?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qk3w2a/what_does_your_ideal_interview_look_like_both_as?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
@@ -41,33 +41,34 @@ date: 2021-11-01
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qk5avf/d_how_is_mlops_done_in_your_current_workplace?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -129,15 +130,6 @@ date: 2021-11-01
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/550411/probability-of-overlapping-interval'>Probability of Overlapping Interval</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 18<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">probability</span> <span class="badge badge-dark">distributions</span> <span class="badge badge-dark">expected-value</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
   <h4><a href='https://stats.stackexchange.com/questions/550445/kruskal-walis-interpretation-with-too-many-outliers-and-0-values'>Kruskal-Walis interpretation with too many outliers and &quot;0&quot; values</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
@@ -151,6 +143,15 @@ date: 2021-11-01
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> stats<br><b>Views:</b> 7<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">survival</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://cs.stackexchange.com/questions/145314/permute-each-row-of-a-square-matrix-to-obtain-the-maximum-number-of-duplicates-i'>Permute each row of a square matrix to obtain the maximum number of duplicates in each column</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> cs<br><b>Views:</b> 32<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">algorithms</span></p> 
   </div>
   </div>
       

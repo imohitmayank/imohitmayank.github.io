@@ -41,33 +41,34 @@ date: 2021-11-23
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qzyab8/post_your_data_engineering_black_friday_resources?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -90,6 +91,15 @@ date: 2021-11-23
       
   <br>
   <div class="card">
+  <h4><a href='https://medium.com/heart-affairs/machine-learning-predicts-who-is-most-likely-to-cheat-eef696a1d538'>Machine Learning Predicts Who is Most Likely to Cheat</a></h4> 
+  <div class="part2">
+      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
+      <p><b>Author:</b> <a href='https://carlynbeccia.medium.com/'>Carlyn Beccia</a><br><b>Claps:</b> 120<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> Pay attention, men. Sexual dissatisfaction was a more significant predictor of infidelity in women than men.</p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
   <h4><a href='https://towardsdatascience.com/pythons-dependency-conflicts-are-depriving-data-scientists-of-sleep-ff52c5689336'>Python’s Dependency Conflicts are Depriving Data Scientists of Sleep</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
@@ -103,15 +113,6 @@ date: 2021-11-23
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
       <p><b>Author:</b> <a href='https://medium.com/@labdmitriy'>Dmitry Labazkin</a><br><b>Claps:</b> 54<br><b>Source:</b> <span class="badge badge-dark">machine-learning</span><br><b>Description:</b> And how CNN formula can help to implement it</p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://quantumstat.medium.com/the-nlp-cypher-11-21-21-29461364076'>The NLP Cypher | 11.21.21</a></h4> 
-  <div class="part2">
-      <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://quantumstat.medium.com/'>Quantum Stat</a><br><b>Claps:</b> 26<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> Inference Prime</p> 
   </div>
   </div>
       
@@ -147,19 +148,19 @@ date: 2021-11-23
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553310/should-i-make-equally-sized-samples-for-the-mann-whitney-u-test-if-originally-i'>Should I make equally sized samples for the Mann-Whitney U test if originally I have unequal sample sizes</a></h4> 
+  <h4><a href='https://cs.stackexchange.com/questions/146029/discrete-optimization-problem-with-a-matrix-inverse'>discrete optimization problem with a matrix inverse</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 247<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">mathematical-statistics</span> <span class="badge badge-dark">statistical-power</span> <span class="badge badge-dark">wilcoxon-mann-whitney-test</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> cs<br><b>Views:</b> 88<br><b>Score:</b> 5<br><b>Tags:</b> <span class="badge badge-dark">optimization</span> <span class="badge badge-dark">discrete-mathematics</span> <span class="badge badge-dark">greedy-algorithms</span></p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553269/does-a-100-times-1-alpha-exact-binomial-ci-imply-use-of-the-clopper-pea'>Does a $100 \times (1-\alpha)$% &quot;exact&quot; binomial CI imply use of the Clopper-Pearson method?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/553310/should-i-make-equally-sized-samples-for-the-mann-whitney-u-test-if-originally-i'>Should I make equally sized samples for the Mann-Whitney U test if originally I have unequal sample sizes</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 22<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">confidence-interval</span> <span class="badge badge-dark">binomial-distribution</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 247<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">mathematical-statistics</span> <span class="badge badge-dark">statistical-power</span> <span class="badge badge-dark">wilcoxon-mann-whitney-test</span></p> 
   </div>
   </div>
       

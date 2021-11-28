@@ -14,7 +14,7 @@ date: 2021-11-27
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/svpino/status/1464217565203419138"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/UNESCO/status/1464156324082733062"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/ainunnajib/status/1464532079652192256"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/KirkDBorne/status/1464420678124376074"></a></blockquote>
 
@@ -26,7 +26,7 @@ date: 2021-11-27
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/huggingface/status/1464432202926669836"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/huggingface/status/1464199238389219335"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/arXiv_Daily/status/1464536424267407360"></a></blockquote>
 
 # Reddit 
 
@@ -34,40 +34,41 @@ date: 2021-11-27
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/r36a0j/company_wants_me_to_do_a_72hr_take_home?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/r3au4g/reasonable_experience_requirement?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r2qcer/r_kwai_kuaishou_eth_zürich_propose_persia_a?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/r2qo5t/c_what_are_jobs_where_prediction_and_forecasting?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/r2s30r/plsql_developer_wanting_to_become_a_data_engineer?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -138,15 +139,6 @@ date: 2021-11-27
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553762/probability-of-pab%e2%88%aac-lower-than-individual-probabilities-pab-and-pac-h'>probability of P(A|B∪C) lower than individual probabilities P(A|B) and P(A|C), how is that possible?</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 28<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">probability</span> <span class="badge badge-dark">bayesian</span> <span class="badge badge-dark">mathematical-statistics</span> <span class="badge badge-dark">conditional-probability</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
   <h4><a href='https://stats.stackexchange.com/questions/553832/help-interpreting-image-prediction'>Help interpreting image prediction</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
@@ -160,6 +152,15 @@ date: 2021-11-27
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> stats<br><b>Views:</b> 54<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">sampling</span> <span class="badge badge-dark">uniform-distribution</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://stats.stackexchange.com/questions/553856/converting-unstandardised-regression-coefficients-to-cohens-d-for-meta-analysis'>Converting unstandardised regression coefficients to Cohen&#39;s d for meta-analysis</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 9<br><b>Score:</b> 1<br><b>Tags:</b> <span class="badge badge-dark">regression-coefficients</span> <span class="badge badge-dark">meta-analysis</span> <span class="badge badge-dark">effect-size</span> <span class="badge badge-dark">pooling</span> <span class="badge badge-dark">cohens-d</span></p> 
   </div>
   </div>
       

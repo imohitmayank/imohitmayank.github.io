@@ -8,8 +8,6 @@ date: 2021-11-17
 
 # Twitter 
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/kissmeriver/status/1460547540475072513"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/riteshagar/status/1460593290777034757"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/gabrielpeyre/status/1460850185911762945"></a></blockquote>
@@ -18,15 +16,17 @@ date: 2021-11-17
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/dataandpolitics/status/1460835414026108928"></a></blockquote>
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/fchollet/status/1460830712718786564"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/ylecun/status/1460915711505797124"></a></blockquote>
+
 <blockquote class="twitter-tweet"><a href="https://twitter.com/PyTorch/status/1460663798113742865"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/TensorFlow/status/1460714327019868160"></a></blockquote>
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/ylecun/status/1460920595999342593"></a></blockquote>
+
 <blockquote class="twitter-tweet"><a href="https://twitter.com/stanfordnlp/status/1460779502418595841"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/paperswithcode/status/1460605825685200904"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/paperswithdata/status/1460543761772171270"></a></blockquote>
 
 # Reddit 
 
@@ -41,33 +41,34 @@ date: 2021-11-17
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qvdb8o/whats_the_future_of_d3js_and_is_there_a_good?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>

@@ -38,36 +38,37 @@ date: 2021-11-26
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/r2fvkd/for_nlp_experts_how_do_you_apply_nlp_in_your_work?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r1sdpa/d_is_it_possible_to_work_as_an_independent?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r2bbvl/d_what_is_causal_machine_learning?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -156,10 +157,10 @@ date: 2021-11-26
       
   <br>
   <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/553643/i-dont-completely-understand-the-concept-of-pca-analysis'>I don&#39;t completely understand the concept of PCA analysis</a></h4> 
+  <h4><a href='https://datascience.stackexchange.com/questions/104485/generate-fake-model-predictions-according-to-desired-precision-recall-values'>Generate fake model predictions according to desired precision/recall values</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 93<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">mathematical-statistics</span> <span class="badge badge-dark">econometrics</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> datascience<br><b>Views:</b> 18<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">python</span> <span class="badge badge-dark">numpy</span> <span class="badge badge-dark">evaluation</span></p> 
   </div>
   </div>
       

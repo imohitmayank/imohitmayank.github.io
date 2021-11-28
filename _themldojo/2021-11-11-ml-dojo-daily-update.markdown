@@ -12,11 +12,11 @@ date: 2021-11-11
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/KirkDBorne/status/1458422926173220866"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/rajnathsingh/status/1458380346903252996"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/JeffBooth/status/1458355657355272194"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/osanseviero/status/1458732681865400321"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/Google/status/1458467781943468036"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/CT_Bergstrom/status/1458696100664147976"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/paperswithcode/status/1458433653269205002"></a></blockquote>
 
@@ -41,33 +41,34 @@ date: 2021-11-11
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qqzuh0/p_cedille_the_largest_french_language_model_6b?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>

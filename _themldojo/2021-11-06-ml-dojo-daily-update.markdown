@@ -14,9 +14,9 @@ date: 2021-11-06
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/zeynep/status/1456636720137621511"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/Sauain/status/1456540570722181134"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hawelti/status/1456896660810964995"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/harari_yuval/status/1456520806180196374"></a></blockquote>
+<blockquote class="twitter-tweet"><a href="https://twitter.com/condaforge/status/1456918811999973386"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/GoogleAI/status/1456710629612470279"></a></blockquote>
 
@@ -24,50 +24,51 @@ date: 2021-11-06
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/PyTorch/status/1456662989977923587"></a></blockquote>
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/paperswithdata/status/1456572927806169088"></a></blockquote>
-
 <blockquote class="twitter-tweet"><a href="https://twitter.com/TensorFlow/status/1456652541295570946"></a></blockquote>
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/stanfordnlp/status/1456625420313321478"></a></blockquote>
 
 # Reddit 
 
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qnie0r/i_was_hired_to_replace_a_team_of_ai_specialists?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qn8com/p_optimization_of_hugging_face_transformer_models?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qnktqk/p_league_of_legends_patch_1121_game_playing_ai?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/datasets/comments/qn60iw/cia_factbook_250_countries_66_columns_of_dataset?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qnkjj2/how_does_the_ml_research_done_in_stats?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qnfbz2/offers_startup_vs_stable_company_which_to_choose?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qniy0c/question_struggling_ms_student?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>

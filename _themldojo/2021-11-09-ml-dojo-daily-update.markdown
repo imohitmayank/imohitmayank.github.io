@@ -8,6 +8,8 @@ date: 2021-11-09
 
 # Twitter 
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/SyedSaddiq/status/1457981875754987521"></a></blockquote>
+
 <blockquote class="twitter-tweet"><a href="https://twitter.com/Sauain/status/1457959447029026819"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/AndrewYNg/status/1457777979296124929"></a></blockquote>
@@ -15,8 +17,6 @@ date: 2021-11-09
 <blockquote class="twitter-tweet"><a href="https://twitter.com/SafemoonWarrior/status/1457749305075318790"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/PrisonPlanet/status/1457682590849191940"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/Ihtreeek/status/1457621177808003077"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/GoogleAI/status/1457808251421089794"></a></blockquote>
 
@@ -36,38 +36,39 @@ date: 2021-11-09
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qpuax4/alibaba_damo_academy_creates_worlds_largest_ai?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qp9bra/project_jorldy_opensource_reinforcement_learning?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qpenkt/project_google_movenet_realtime_pose_estimation?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/qp8897/p_opennsfw_2_tensorflow_2_implementation_of_the?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qplj6c/going_from_sql_developerbi_developer_to_data?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -138,10 +139,19 @@ date: 2021-11-09
       
   <br>
   <div class="card">
-  <h4><a href='https://cs.stackexchange.com/questions/145525/on-a-coloring-that-uses-2-cdot-a-left-g-right-colors'>On a coloring that uses $2\cdot a\left( G \right)$ colors</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/551529/k-means-as-a-special-case-of-gmm-using-em-algorithm'>K Means as a special case of GMM (using EM Algorithm)</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 54<br><b>Score:</b> 4<br><b>Tags:</b> <span class="badge badge-dark">k-means</span> <span class="badge badge-dark">gaussian-mixture-distribution</span> <span class="badge badge-dark">expectation-maximization</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://cs.stackexchange.com/questions/145579/regular-expressions-what-is-difference-between-a-and-a'>Regular Expressions - What is difference between a+ and a^+</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> cs<br><b>Views:</b> 21<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">graphs</span> <span class="badge badge-dark">combinatorics</span> <span class="badge badge-dark">weighted-graphs</span> <span class="badge badge-dark">colorings</span></p> 
+      <p><b>Source:</b> cs<br><b>Views:</b> 504<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">regular-languages</span> <span class="badge badge-dark">automata</span> <span class="badge badge-dark">regular-expressions</span></p> 
   </div>
   </div>
       
@@ -151,15 +161,6 @@ date: 2021-11-09
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
       <p><b>Source:</b> stats<br><b>Views:</b> 28<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">probability</span> <span class="badge badge-dark">combinatorics</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
-  <h4><a href='https://stats.stackexchange.com/questions/551491/correct-glm-or-nls-to-model-exponential-model-with-response-variable-with-positi'>Correct GLM or NLS to model exponential model with response variable with positive and negative values</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 15<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">generalized-linear-model</span> <span class="badge badge-dark">power-law</span> <span class="badge badge-dark">quasi-likelihood</span> <span class="badge badge-dark">nls</span></p> 
   </div>
   </div>
       

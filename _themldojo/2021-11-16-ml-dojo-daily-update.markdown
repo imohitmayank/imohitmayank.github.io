@@ -10,13 +10,13 @@ date: 2021-11-16
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/acroll/status/1460243583718547457"></a></blockquote>
 
+<blockquote class="twitter-tweet"><a href="https://twitter.com/kissmeriver/status/1460547540475072513"></a></blockquote>
+
 <blockquote class="twitter-tweet"><a href="https://twitter.com/AASchapiro/status/1460276185355612162"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/RajivMessage/status/1460325338794319872"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/Rapid_API/status/1460272283461865475"></a></blockquote>
-
-<blockquote class="twitter-tweet"><a href="https://twitter.com/zdeborova/status/1460236244408016896"></a></blockquote>
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/DeepLearningAI_/status/1460276426041610246"></a></blockquote>
 
@@ -34,40 +34,41 @@ date: 2021-11-16
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/datascience/comments/qudy4j/how_an_ideal_ide_for_python_notebooks_should_look?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
-<iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/quclg6/d_how_ml_is_helping_us_understand_animal?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
-<hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/dataengineering/comments/qupb5w/databricks_responds_to_snowflake_tpcds?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
 <iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/qusn13/c_anxiety_about_the_amount_of_time_i_spend_on?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
 <hr style="width:100%;text-align:left;margin-left:0">
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/statistics/comments/quun8q/q_those_of_you_who_didnt_become_professors_was_a?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="300" width="100%" scrolling="yes"></iframe>
+<hr style="width:100%;text-align:left;margin-left:0">
 
-  <style>
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    background-color: #F3F4F4;
-  }
-  p{
-      margin-left:  3em;
-      padding-top: 1em;
-  }
-  .part2{
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-  }
-  h4{
-      margin: 1em;
-  }
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  b {
-    padding: 2px 16px;
-  }
-  </style>
-  # Medium 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+  
+# Medium 
 
 
   <br>
@@ -99,19 +100,19 @@ date: 2021-11-16
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/applications-of-different-parts-of-an-roc-curve-b534b1aafb68'>Applications of Different Parts of an ROC Curve</a></h4> 
+  <h4><a href='https://towardsdatascience.com/software-engineering-xor-data-science-72abbc868b8b'>Software Engineering XOR Data Science</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@pgrover3'>Prince Grover</a><br><b>Claps:</b> 154<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> Understanding the importance of different parts of an ROC curve and exploring variants of AUC for ML applications</p> 
+      <p><b>Author:</b> <a href='https://medium.com/@toprakucar'>Kemal Toprak Uçar</a><br><b>Claps:</b> 130<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> My experience working as a Software Engineer and a Data Scientist, and the solutions to the challenges that I faced</p> 
   </div>
   </div>
       
   <br>
   <div class="card">
-  <h4><a href='https://towardsdatascience.com/software-engineering-xor-data-science-72abbc868b8b'>Software Engineering XOR Data Science</a></h4> 
+  <h4><a href='https://towardsdatascience.com/detecting-the-most-popular-tourist-attractions-in-valencia-using-unsupervised-learning-techniques-de0b12fb1ca'>Detecting the most popular tourist attractions in Valencia using unsupervised learning techniques</a></h4> 
   <div class="part2">
       <img src="https://miro.medium.com/max/2000/1*jfdwtvU6V6g99q3G7gq7dQ.png" alt="Img missing!" style="width:100%">
-      <p><b>Author:</b> <a href='https://medium.com/@toprakucar'>Kemal Toprak Uçar</a><br><b>Claps:</b> 130<br><b>Source:</b> <span class="badge badge-dark">artificial-intelligence</span><br><b>Description:</b> My experience working as a Software Engineer and a Data Scientist, and the solutions to the challenges that I faced</p> 
+      <p><b>Author:</b> <a href='https://amandaiglesiasmoreno.medium.com/'>Amanda Iglesias Moreno</a><br><b>Claps:</b> 45<br><b>Source:</b> <span class="badge badge-dark">data-science</span><br><b>Description:</b> DSCAN algorithm for discovering the most popular photographed locations in Valencia (Spain).</p> 
   </div>
   </div>
       
@@ -138,15 +139,6 @@ date: 2021-11-16
       
   <br>
   <div class="card">
-  <h4><a href='https://datascience.stackexchange.com/questions/104157/reinforcement-learning-applied-to-optimisation-problem'>Reinforcement Learning applied to Optimisation Problem</a></h4> 
-  <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> datascience<br><b>Views:</b> 21<br><b>Score:</b> 3<br><b>Tags:</b> <span class="badge badge-dark">python</span> <span class="badge badge-dark">deep-learning</span> <span class="badge badge-dark">reinforcement-learning</span> <span class="badge badge-dark">optimization</span></p> 
-  </div>
-  </div>
-      
-  <br>
-  <div class="card">
   <h4><a href='https://cs.stackexchange.com/questions/145780/is-this-language-x-xxxx-in-l-regular'>Is this language $X = \{x:xxx\in L\}$ regular?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
@@ -156,10 +148,19 @@ date: 2021-11-16
       
   <br>
   <div class="card">
-  <h4><a href='https://datascience.stackexchange.com/questions/104178/which-type-of-models-generalize-better-generative-or-discriminative-models'>Which type of models generalize better, generative or discriminative models?</a></h4> 
+  <h4><a href='https://stats.stackexchange.com/questions/552381/in-a-chi-square-of-association-what-are-the-dependent-variables'>In a chi-square of association, what are the &quot;dependent&quot; variables?</a></h4> 
   <div class="part2">
-      <img src="https://cdn.sstatic.net/Sites/datascience/Img/apple-touch-icon@2.png?v=1c36463984b3" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> datascience<br><b>Views:</b> 158<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">nlp</span> <span class="badge badge-dark">generative-models</span> <span class="badge badge-dark">generalization</span> <span class="badge badge-dark">discriminative-models</span></p> 
+      <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> stats<br><b>Views:</b> 16<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">chi-squared-test</span> <span class="badge badge-dark">predictor</span> <span class="badge badge-dark">association-measure</span> <span class="badge badge-dark">dependent-variable</span></p> 
+  </div>
+  </div>
+      
+  <br>
+  <div class="card">
+  <h4><a href='https://cs.stackexchange.com/questions/145776/proving-that-a-specific-turing-machine-accepts-a-regular-language'>Proving that a specific Turing machine accepts a regular language</a></h4> 
+  <div class="part2">
+      <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
+      <p><b>Source:</b> cs<br><b>Views:</b> 87<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">turing-machines</span> <span class="badge badge-dark">regular-languages</span></p> 
   </div>
   </div>
       
