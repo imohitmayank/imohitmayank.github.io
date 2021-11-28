@@ -63,6 +63,9 @@ collections:
   research:
     output: true
     permalink: /research/:name
+  themldojo:
+    output: true
+    permalink: /themldojo/:name
   socialmedia:
     output: true
     permalink: /socialmedia/:name
@@ -98,16 +101,16 @@ defaults:
       type: "research"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
+  - scope:                                              
+      path: ""                                          
+      type: "elements"                                  
+    values:                                             
       layout: "element"   
   - scope:
       path: ""
       type: "socialmedia"
     values:
-      layout: "page"                              # For Documentation Only
+      layout: "page"                              
   - scope:
       path: ""
       type: "posts"
