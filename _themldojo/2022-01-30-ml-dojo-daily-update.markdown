@@ -17,6 +17,33 @@ date: 2022-01-30
   });
 </script>
 
+<style>
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+background-color: #F3F4F4;
+}
+p{
+    margin-left:  3em;
+    padding-top: 1em;
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h4{
+    margin: 1em;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}
+</style>
+
 # Twitter 
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/heydave7/status/1487533641152577540"></a></blockquote>
