@@ -7,7 +7,7 @@ weight: 100
 
 # **About Me**
 <br>
-Hi, its **{{ site.author.name }}**  :bowtie: :wave:, I am **Senior Data Scientist** :books: @ [Outplay](https://outplayhq.com/) :european_castle:. <br>
+Hi, its **{{ site.author.name }}**  :bowtie: :wave:, I am **Lead Data Scientist** :books: @ [Outplay](https://outplayhq.com/) :european_castle:. <br>
 
 I have 5+ years of experience in solving business problems using Data Science techniques. I am an active AI/ML researcher with research papers on state-of-the-art deep learning-based solutions and active collaborations with Universities. I was the winner of TCS SUPERCoder 2019 - a TCS wide coding competition. Finally, I have also written several technical articles on my website and Medium.
 
