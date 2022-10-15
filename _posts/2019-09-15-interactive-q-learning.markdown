@@ -11,9 +11,9 @@ The best way to learn about Q tables…
 
 ![](/img/1gRqnRGbup0fUzU97Km0Hvg.gif)Give me maximum reward :)
 
-**Go play** @ [Interactive Q learning](http://mohitmayank.com/interactive_q_learning/q_learning.html)
+Go play @ [Interactive Q learning](http://mohitmayank.com/interactive_q_learning/q_learning.html)
 
-**Code** @ [Mohit’s Github](https://github.com/imohitmayank/interactive_q_learning)
+Code @ [Mohit’s Github](https://github.com/imohitmayank/interactive_q_learning)
 
 #### Introduction
 
@@ -23,49 +23,57 @@ While going through the process of understanding Q learning, I was always fascin
 
 ![](/img/1INSxrgijm3xUgavs-eFbBg.png)Interactive grid worldThe interactive grid world is divided into two main areas,
 
-1. **Playground**: Consists of boxes or states, where the action takes place.
+1. **Playground:** Consists of boxes or states, where the action takes place.
 2. **Settings:** Consists of multiple levels of settings by which you design and control the playground.
 Let’s try to understand the dynamics of the grid world by going through the available settings. The settings area can be further divided into,
 
-![](/img/1o7BBwWBkuXEVPiuTxJxukg.png)The 4 subsections of settings.* **Gridworld level settings: **Consists of settings which change the format of the overall world, contains -
-**— Size**: Select the size of the world. “Large” means more number of states.
+![](/img/1o7BBwWBkuXEVPiuTxJxukg.png)
 
-**— Speed**: Select the speed of processing. “Fast” is good when we want to get final result quick but “slow” is best for intuitive visualization.
+As shown above, the 4 subsections of settings are, 
 
-* **State level settings: **Helps in designing the individual states and their behavior, contains -
-**— Reward value**: The reward assigned to clicked state.
+- **Gridworld level settings:** Consists of settings which change the format of the overall world, contains
 
-**— State type**: The types of state. ‘Terminal’ — basically the game over state, agent completes the current episode when it enters a terminal state. ‘Wall’ — a fixed state with no reward, one agent can’t cross. ‘Normal’ — the default state type.
+    — Size: Select the size of the world. “Large” means more number of states.
 
-**— Apply to all**: Shortcut button to apply the current reward value and state type to all of the boxes in the grid world.
+    — Speed: Select the speed of processing. “Fast” is good when we want to get final result quick but “slow” is best for intuitive visualization.
 
-* **Agent level settings: **Defines the agent’s learning behavior, contains -
-—** Discount**: The discount applied to future rewards. The default value is 0.9.
+- **State level settings:** Helps in designing the individual states and their behavior, contains
 
-—** Deterministic**: Defines the deterministic probability of the agent’s actions. 1 means a “right” from a box will always lead to the box on right. Whereas 0.7 means there is only a 70% chance for this to happen and a 10% chance of going to any of the adjacent states. (For math geeks, 3 remaining adjacent states, hence 10 * 3 = 30 % which completes the 100%)
+    — Reward value: The reward assigned to clicked state.
 
-— **E-greedy**: Defines the exploit/explore nature of the agent. 0 means the agent is completely greedy and will always select the best action available. 1 means the agent is completely random and could select from any available actions. To understand more about epsilon-greedy, I would suggest going through my earlier post, [Reinforcement learning with multi-arm bandit](http://mohitmayank.com/reinforcement-learning-with-multi-arm-bandit/).
+    — State type: The types of state. ‘Terminal’ — basically the game over state, agent completes the current episode when it enters a terminal state. ‘Wall’ — a fixed state with no reward, one agent can’t cross. ‘Normal’ — the default state type.
 
-* **Execution type settings: **Controls the flow of the world, contains -
-— **Run/Stop**: Let the agent play inside the gridworld. Toggles the switch.
+    — Apply to all: Shortcut button to apply the current reward value and state type to all of the boxes in the grid world.
 
-—** Reset**: Go back to the initial settings and dynamics.
+- **Agent level settings:** Defines the agent’s learning behavior, contains 
+  
+    — Discount: The discount applied to future rewards. The default value is 0.9.
 
-— **Show/Hide policy**: Toggle the visibility of policy direction arrows.
+    — Deterministic: Defines the deterministic probability of the agent’s actions. 1 means a “right” from a box will always lead to the box on right. Whereas 0.7 means there is only a 70% chance for this to happen and a 10% chance of going to any of the adjacent states. (For math geeks, 3 remaining adjacent states, hence 10 * 3 = 30 % which completes the 100%)
 
-— **Show/Hide Highlight**: Toggle the visibility of the current state’s highlight.
+    — E-greedy: Defines the exploit/explore nature of the agent. 0 means the agent is completely greedy and will always select the best action available. 1 means the agent is completely random and could select from any available actions. To understand more about epsilon-greedy, I would suggest going through my earlier post, [Reinforcement learning with multi-arm bandit](http://mohitmayank.com/reinforcement-learning-with-multi-arm-bandit/).
+
+-  **Execution type settings:** Controls the flow of the world, contains
+  
+    — Run/Stop: Let the agent play inside the gridworld. Toggles the switch.
+
+    — Reset: Go back to the initial settings and dynamics.
+
+    — Show/Hide policy: Toggle the visibility of policy direction arrows.
+
+    — Show/Hide Highlight: Toggle the visibility of the current state’s highlight.
 
 #### How to play?
 
 Let take some examples to understand this better.
 
-**Example 1: **The first example could be “The Beer Game” from my earlier post about [reinforcement learning with Q tables.](http://mohitmayank.com/reinforcement-learning-with-q-tables/) I would suggest going through the post to get a basic idea about the Q tables. So the world looks like this,
+Example 1: The first example could be “The Beer Game” from my earlier post about [reinforcement learning with Q tables.](http://mohitmayank.com/reinforcement-learning-with-q-tables/) I would suggest going through the post to get a basic idea about the Q tables. So the world looks like this,
 
 ![](/img/1ar3k67CSv0GrDo9z1IuqvQ.png)The beer gameAnd we want the agent to learn to always go to the state with beer rather than the one with a hole. Let’s recreate this in our interactive grid world,
 
 ![](/img/1fr3fzda26xqdXQtRgBq4lw.gif)Solving example 1 on interactive grid worldFinally, the grid world looks like this,
 
-![](/img/1ipcUtAPHQOB6QN1LnruFCA.png)Agent’s expected rewards and policy after convergence for example 1.**Example 2**: Let’s take one example from [Udemy’s Artificial intelligence course](https://www.udemy.com/artificial-intelligence-az/). The world looks like this,
+![](/img/1ipcUtAPHQOB6QN1LnruFCA.png)Agent’s expected rewards and policy after convergence for example 1.Example 2: Let’s take one example from [Udemy’s Artificial intelligence course](https://www.udemy.com/artificial-intelligence-az/). The world looks like this,
 
 ![](/img/191Plm2qb9BKWy6PnpCpkHw.png)Green flags have reward of 1 and the state with fire has negative reward, say -1.![](/img/18DYL0yHVz2LXCex_N4FLUg.png)The policy learned after convergence.The expected state reward (V) in the above image along with the directions (policy) are learned after going through multiple iterations of training. Let’s try to replicate this world as well,
 
@@ -83,7 +91,7 @@ The project is far from over! There are many things that I want to add to this, 
 
 [2] [UC Berkeley CS188 Intro to AI](http://ai.berkeley.edu/reinforcement.html)
 
-[3] [Reinforce.js](https://cs.stanford.edu/people/karpathy/reinforcejs/gridworld_dp.html) by [**Andrej Karpathy**](https://twitter.com/karpathy)
+[3] [Reinforce.js](https://cs.stanford.edu/people/karpathy/reinforcejs/gridworld_dp.html) by [Andrej Karpathy](https://twitter.com/karpathy)
 
 Cheers!
 
