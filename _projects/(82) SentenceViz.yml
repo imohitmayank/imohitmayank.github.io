@@ -1,0 +1,7 @@
+---
+name: SentenceViz
+tools: [visualization, sentence embedding, python]
+image: ../img/projects/sentenceviz.png
+description: SentenceViz is a quick app to visualize your sentence emebddings to find interesting patterns and clusters.
+external_url: https://huggingface.co/spaces/mohitmayank/sentenceviz
+---
