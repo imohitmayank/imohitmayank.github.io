@@ -13,7 +13,7 @@ I have 6+ years of experience in solving business problems using Data Science te
 
 I have been part of two completely different and wild worlds - Research and Software Development. While my research experience taught me how to identify and solve problems scientifically, the software development experience helped me understand and appreciate the business angle :moneybag:. Overall, I try to find the optimum between them  :triumph:
 
-Want to connect with me? [Book a 1:1 chat with me on topmate](topmate.io/mohit_mayank)
+Want to connect with me? [Book a 1:1 chat with me on topmate](https://topmate.io/mohit_mayank)
 
 Or, have a look at my
 - :scroll: [resume](../resume.pdf)
