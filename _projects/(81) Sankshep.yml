@@ -1,0 +1,7 @@
+---
+name: Sankshep
+tools: [chatgpt, arxiv, summarization, question-answering]
+image: ../img/sankshep-project-preview.gif
+description: Sankshep is your ChatGPT powered AI assistant that can provides summaries and a way to chat with arXiv papers (more sources coming soon!). Want to use it? Just enter the arXiv paper's PDF URL and hit enter!
+external_url: https://www.sankshep.co.in/
+---
