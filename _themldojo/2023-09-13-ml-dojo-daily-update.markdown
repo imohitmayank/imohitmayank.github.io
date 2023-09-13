@@ -65,7 +65,7 @@ padding: 2px 16px;
   <h4><a href='https://stats.stackexchange.com/questions/626293/structural-equation-model-design'>Structural Equation Model design</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 24<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">structural-equation-modeling</span> <span class="badge badge-dark">predictor</span> <span class="badge badge-dark">dependent-variable</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 25<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">structural-equation-modeling</span> <span class="badge badge-dark">predictor</span> <span class="badge badge-dark">dependent-variable</span></p> 
   </div>
   </div>
       
@@ -74,7 +74,7 @@ padding: 2px 16px;
   <h4><a href='https://stats.stackexchange.com/questions/626271/can-i-keep-several-features-with-multicollinearity-in-the-model'>Can I keep several features with multicollinearity in the model?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/stats/Img/apple-touch-icon@2.png?v=344f57aa10cc" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> stats<br><b>Views:</b> 103<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">logistic</span> <span class="badge badge-dark">multicollinearity</span></p> 
+      <p><b>Source:</b> stats<br><b>Views:</b> 111<br><b>Score:</b> 2<br><b>Tags:</b> <span class="badge badge-dark">regression</span> <span class="badge badge-dark">machine-learning</span> <span class="badge badge-dark">logistic</span> <span class="badge badge-dark">multicollinearity</span></p> 
   </div>
   </div>
       
@@ -98,10 +98,10 @@ padding: 2px 16px;
       
   <br>
   <div class="card">
-  <h4><a href='https://cs.stackexchange.com/questions/161991/why-is-infeasibility-of-linear-programming-considered-to-be-an-np-problem'>Why is infeasibility of linear programming considered to be an NP problem?</a></h4> 
+  <h4><a href='https://cs.stackexchange.com/questions/162000/exploiting-weaknesses-in-virus-detecting-software'>Exploiting weaknesses in virus-detecting software?</a></h4> 
   <div class="part2">
       <img src="https://cdn.sstatic.net/Sites/cs/Img/apple-touch-icon@2.png?v=324a3e0c2b03" alt="Img missing!" style="width:40%">
-      <p><b>Source:</b> cs<br><b>Views:</b> 19<br><b>Score:</b> 1<br><b>Tags:</b> <span class="badge badge-dark">complexity-theory</span> <span class="badge badge-dark">np</span> <span class="badge badge-dark">linear-programming</span> <span class="badge badge-dark">co-np</span> <span class="badge badge-dark">simplex</span></p> 
+      <p><b>Source:</b> cs<br><b>Views:</b> 18<br><b>Score:</b> 1<br><b>Tags:</b> <span class="badge badge-dark">rice-theorem</span></p> 
   </div>
   </div>
       
