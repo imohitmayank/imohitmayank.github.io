@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Mohit Mayank
 description         : >-
-                      Senior Data Scientist :bowtie: | AI/ML Researcher | Creator of "Jaal" | Author of "Lazy Data Science Guide" | TCS SuperCoder 2019
+                      Lead Data Scientist :bowtie: | AI/ML Researcher | Creator of "Jaal" | Author of "Lazy Data Science Guide" | TCS SuperCoder 2019
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : imohitmayank/imohitmayank     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : YoussefRaafatNasry/portfolYOU
