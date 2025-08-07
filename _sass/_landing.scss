@@ -1,10 +1,99 @@
+// Landing Page Styles
+
+.landing-container {
+  min-height: 60vh;
+  align-items: center !important;
+}
+
+.landing-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.landing-intro {
+  width: 100%;
+}
+
+.landing-greeting {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.experience-text-heading {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.dynamic-title-container {
+  height: 4rem; /* Fixed height to prevent layout shifts */
+  display: flex;
+  align-items: center;
+}
+
+.dynamic-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #007bff;
+  line-height: 1.2;
+}
+
+.dynamic-role {
+  border-right: 2px solid #007bff;
+  animation: blink 1s infinite;
+}
+
+.experience-text h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  // color: #666;
+}
+
+.dynamic-skills-container {
+  height: 2.5rem; /* Fixed height to prevent layout shifts */
+  display: flex;
+  align-items: center;
+}
+
+.dynamic-skills {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #007bff;
+  line-height: 1.2;
+}
+
+.dynamic-skill {
+  border-right: 2px solid #007bff;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { border-color: transparent; }
+  51%, 100% { border-color: currentColor; }
+}
+
+.landing-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
 // Fine Circle Responsive Image
 // Inspired by https://stackoverflow.com/a/6615994/10194811
 
 #container {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 80%;
+  max-width: 400px;
 }
 
 #dummy {
@@ -25,4 +114,43 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.circle-image:hover {
+  transform: scale(1.05);
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .landing-container {
+    text-align: center;
+  }
+  
+  .landing-text-section {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .landing-greeting {
+    font-size: 2.5rem;
+  }
+  
+  .dynamic-title {
+    font-size: 2.8rem;
+  }
+  
+  .experience-text h3 {
+    font-size: 1.5rem;
+  }
+  
+  .dynamic-skills {
+    font-size: 1.5rem;
+  }
+  
+  #container {
+    width: 60%;
+    max-width: 300px;
+  }
 }
