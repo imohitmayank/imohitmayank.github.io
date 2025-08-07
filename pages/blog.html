@@ -1,9 +1,32 @@
 ---
 layout: default
-title: Blog
+title: Book
 weight: 1
-permalink: /blog/
+permalink: /book/
 ---
 
-{% include blog/search.html %}
-{% include blog/index.html %}
+<div class="container-fluid p-0">
+  <div class="row no-gutters">
+    <div class="col-12">
+      <div class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+        <h4 class="mb-0">A Lazy Data Science Guide</h4>
+        <a href="https://mohitmayank.com/a_lazy_data_science_guide/" 
+           target="_blank" 
+           class="btn btn-outline-primary btn-sm">
+          <i class="fas fa-external-link-alt"></i> Open in New Tab
+        </a>
+      </div>
+      <iframe 
+        src="https://mohitmayank.com/a_lazy_data_science_guide/"
+        width="100%" 
+        height="800px"
+        frameborder="0"
+        style="min-height: 80vh;"
+        title="A Lazy Data Science Guide">
+        <p>Your browser does not support iframes. 
+           <a href="https://mohitmayank.com/a_lazy_data_science_guide/">Please click here to view the book</a>.
+        </p>
+      </iframe>
+    </div>
+  </div>
+</div>
