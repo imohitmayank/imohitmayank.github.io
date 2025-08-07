@@ -19,10 +19,6 @@
     font-weight: inherit;
     line-height: 1;
   }
-  
-  &::after {
-    margin-top: -0.25em;
-  }
 }
 
 .nav-link {
@@ -40,34 +36,8 @@
   }
 }
 
-.nav-item.active .nav-link {
+// Active navigation item styling
+.nav-item.nav-link.active {
   font-weight: 500;
   color: #007bff !important;
-}
-
-.link-after {
-  content: "";
-  display: block;
-  height: 0.15em;
-  background: $primary;
-}
-
-.nav-link,
-.navbar-brand {
-  &::after {
-    @extend .link-after;
-    width: 0;
-    transition: width 0.35s;
-  }
-
-  &:hover::after {
-    width: 100%;
-  }
-}
-
-.nav-item.active {
-  &::after {
-    @extend .link-after;
-    width: 100% !important;
-  }
 }
