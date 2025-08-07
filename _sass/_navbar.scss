@@ -1,3 +1,50 @@
+// Navbar Styles to match Landing Page
+.navbar {
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  color: #007bff !important;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  
+  h5 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1;
+  }
+  
+  &::after {
+    margin-top: -0.25em;
+  }
+}
+
+.nav-link {
+  font-weight: 300;
+  color: #666 !important;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  
+  &:hover {
+    color: #007bff !important;
+    font-weight: 500;
+  }
+}
+
+.nav-item.active .nav-link {
+  font-weight: 500;
+  color: #007bff !important;
+}
+
 .link-after {
   content: "";
   display: block;
@@ -19,17 +66,8 @@
 }
 
 .nav-item.active {
-  font-weight: bold;
-
   &::after {
     @extend .link-after;
     width: 100% !important;
-  }
-}
-
-.navbar-brand {
-  margin-bottom: -14px;
-  &::after {
-    margin-top: -0.25em;
   }
 }
