@@ -1,5 +1,6 @@
 ---
 name: Interactive Q Learning
+category: Visualization
 tools: [interact, processing, p5]
 image: ../img/1gRqnRGbup0fUzU97Km0Hvg.gif
 description: An interactive 2D grid world to better understand the Q learning basics. 

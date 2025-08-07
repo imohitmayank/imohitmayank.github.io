@@ -1,5 +1,6 @@
 ---
 name: Lecture on Knowledge Graph - Part 2
+category: Educational
 tools: [lecture, knowledge-graph, ai, ml]
 image: ../img/kg_lecture_2.jpg
 description: Guest lecture on Knowledge graph, given at the University of Tartu. AI on KG with generic tasks and KG applications.

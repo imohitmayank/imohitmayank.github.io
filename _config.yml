@@ -57,9 +57,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  learning:
-    output: true
-    permalink: /learning/:name
+
   research:
     output: true
     permalink: /research/:name
@@ -85,11 +83,7 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "learning"
-    values:
-      layout: "page"
+
   - scope:
       path: ""
       type: "research"

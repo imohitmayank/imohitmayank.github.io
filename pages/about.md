@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: Me
 permalink: /about/
-weight: 100
+weight: 5
 ---
 
 # **About Me**
