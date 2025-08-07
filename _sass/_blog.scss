@@ -142,3 +142,86 @@
     }
   }
 }
+
+// Book page styles
+.book-header {
+  background-color: var(--bg-color) !important;
+  border-color: var(--border-color) !important;
+  transition: background-color 0.3s ease;
+}
+
+.book-title {
+  color: var(--text-color) !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.book-external-btn {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  
+  &:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+    opacity: 0.9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(235, 89, 58, 0.3);
+  }
+  
+  &:focus {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+    box-shadow: 0 0 0 0.2rem rgba(235, 89, 58, 0.25);
+  }
+  
+  .fas {
+    font-size: 0.875rem;
+  }
+}
+
+// Enhanced iframe styling for the book
+iframe[title="A Lazy Data Science Guide"] {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 0 0 8px 8px;
+  transition: border-color 0.3s ease;
+}
+
+// Responsive improvements for book section
+@media (max-width: 768px) {
+  .book-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem;
+    
+    .book-title {
+      font-size: 1rem;
+    }
+    
+    .book-external-btn {
+      align-self: stretch;
+      text-align: center;
+    }
+  }
+  
+  iframe[title="A Lazy Data Science Guide"] {
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-header {
+    padding: 1rem !important;
+  }
+  
+  iframe[title="A Lazy Data Science Guide"] {
+    height: 500px !important;
+  }
+}
