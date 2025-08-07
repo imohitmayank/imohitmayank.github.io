@@ -4,6 +4,8 @@
   min-height: 80vh;
   align-items: center !important;
   justify-content: center;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
 }
 
 .landing-text-section {
@@ -16,6 +18,8 @@
 
 .landing-intro {
   width: 100%;
+  max-width: 100%;
+  overflow: hidden; /* Prevent content from overflowing */
 }
 
 .landing-greeting {
@@ -33,10 +37,12 @@
 }
 
 .dynamic-title-container {
-  height: 8rem; /* Fixed height to prevent layout shifts */
+  min-height: 8rem; /* Minimum height to prevent layout shifts */
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden; /* Prevent horizontal overflow */
+  width: 100%;
 }
 
 .dynamic-title {
@@ -45,6 +51,10 @@
   margin-bottom: 2rem;
   color: var(--primary-color);
   line-height: 1.1;
+  text-align: center;
+  word-break: break-word; /* Break long words if needed */
+  hyphens: auto; /* Allow hyphenation */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
 }
 
 .dynamic-role {
@@ -60,10 +70,12 @@
 }
 
 .dynamic-skills-container {
-  height: 5rem; /* Fixed height to prevent layout shifts */
+  min-height: 5rem; /* Minimum height to prevent layout shifts */
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden; /* Prevent horizontal overflow */
+  width: 100%;
 }
 
 .dynamic-skills {
@@ -71,6 +83,10 @@
   font-weight: 500;
   color: var(--primary-color);
   line-height: 1.1;
+  text-align: center;
+  word-break: break-word; /* Break long words if needed */
+  hyphens: auto; /* Allow hyphenation */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
 }
 
 .dynamic-skill {
@@ -103,10 +119,12 @@
   
   .dynamic-title {
     font-size: 5rem;
+    word-break: break-word; /* Ensure text breaks properly on mobile */
   }
   
   .dynamic-title-container {
-    height: 6rem;
+    min-height: 6rem;
+    padding: 0 1rem; /* Add padding to prevent edge overflow */
   }
   
   .experience-text-heading {
@@ -115,10 +133,12 @@
   
   .dynamic-skills {
     font-size: 3.2rem;
+    word-break: break-word; /* Ensure text breaks properly on mobile */
   }
   
   .dynamic-skills-container {
-    height: 4rem;
+    min-height: 4rem;
+    padding: 0 1rem; /* Add padding to prevent edge overflow */
   }
 }
 
@@ -129,10 +149,12 @@
   
   .dynamic-title {
     font-size: 3.8rem;
+    word-break: break-word; /* Ensure text breaks properly on small mobile */
   }
   
   .dynamic-title-container {
-    height: 5rem;
+    min-height: 5rem;
+    padding: 0 0.5rem; /* Add smaller padding for very small screens */
   }
   
   .experience-text-heading {
@@ -141,10 +163,12 @@
   
   .dynamic-skills {
     font-size: 2.8rem;
+    word-break: break-word; /* Ensure text breaks properly on small mobile */
   }
   
   .dynamic-skills-container {
-    height: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0 0.5rem; /* Add smaller padding for very small screens */
   }
   
   .landing-text-section {
