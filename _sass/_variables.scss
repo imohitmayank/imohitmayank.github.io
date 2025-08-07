@@ -8,3 +8,30 @@ $light:     #f8f9fa;
 $dark:      #343a40;
 
 $rounded-borders: 15px;
+
+// CSS Custom Properties for Theme System
+:root {
+  // Light theme colors (default fallback)
+  --bg-color: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --text-color: #333333;
+  --text-secondary: #666666;
+  --navbar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --border-color: #e9ecef;
+  --primary-color: #007bff;
+  --accent-color: #fbf8da;
+  
+  // Dark theme colors
+  &[data-theme="dark"] {
+    --bg-color: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-color: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --navbar-bg: #1e1e1e;
+    --card-bg: #2d2d2d;
+    --border-color: #404040;
+    --primary-color: #4d9eff;
+    --accent-color: #2d2d2d;
+  }
+}
