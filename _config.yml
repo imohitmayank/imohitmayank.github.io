@@ -9,7 +9,7 @@ repository          : imohitmayank/imohitmayank     # Change to <your-username>/
 
 ### Plugins ###
 plugins:
-  - jemoji
+  # - jemoji
   - jekyll-feed
 
 avatar: "/img/website_thumbnail.png"
@@ -63,12 +63,6 @@ collections:
   research:
     output: true
     permalink: /research/:name
-  themldojo:
-    output: true
-    permalink: /themldojo/:name
-  socialmedia:
-    output: true
-    permalink: /socialmedia/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
@@ -106,11 +100,6 @@ defaults:
       type: "elements"                                  
     values:                                             
       layout: "element"   
-  - scope:
-      path: ""
-      type: "socialmedia"
-    values:
-      layout: "page"                              
   - scope:
       path: ""
       type: "posts"

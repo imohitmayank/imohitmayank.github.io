@@ -1,5 +1,5 @@
-$primary:   #007bff;
-$secondary: #6c757d;
+$primary:   #EB593A;
+$secondary: #B7AB98;
 $success:   #28a745;
 $info:      #17a2b8;
 $warning:   #ffc107;
@@ -15,23 +15,23 @@ $rounded-borders: 15px;
   --bg-color: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-color: #333333;
-  --text-secondary: #666666;
+  --text-secondary: #b1a693;
   --navbar-bg: #ffffff;
   --card-bg: #ffffff;
   --border-color: #e9ecef;
-  --primary-color: #007bff;
-  --accent-color: #fbf8da;
+  --primary-color: #EB593A;
+  --accent-color: #B7AB98;
   
   // Dark theme colors
   &[data-theme="dark"] {
     --bg-color: #121212;
     --bg-secondary: #1e1e1e;
     --text-color: #e0e0e0;
-    --text-secondary: #b0b0b0;
+    --text-secondary: #B7AB98;
     --navbar-bg: #121212;
     --card-bg: #2d2d2d;
     --border-color: #404040;
-    --primary-color: #4d9eff;
-    --accent-color: #2d2d2d;
+    --primary-color: #EB593A;
+    --accent-color: #B7AB98;
   }
 }

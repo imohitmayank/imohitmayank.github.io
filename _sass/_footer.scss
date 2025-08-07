@@ -1,35 +1,35 @@
 // Footer Styles to match Landing Page
 footer {
   font-family: "Poppins", sans-serif;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .social {
   text-decoration: none !important;
-  color: #666 !important;
+  color: var(--text-secondary) !important;
   font-weight: 300;
   transition: all 0.3s ease;
   
   &:hover {
-    color: #007bff !important;
+    color: var(--primary-color) !important;
     transform: translateY(-2px);
   }
 }
 
 .footer-copyright {
   font-weight: 300;
-  color: #666;
+  color: var(--text-secondary);
   font-size: 0.9rem;
 }
 
 .footer-link {
-  color: #666 !important;
+  color: var(--text-secondary) !important;
   font-weight: 300;
   text-decoration: none;
   transition: all 0.3s ease;
   
   &:hover {
-    color: #007bff !important;
+    color: var(--primary-color) !important;
     font-weight: 500;
   }
 }
@@ -38,16 +38,16 @@ footer {
   opacity: 0.5;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #666;
+  color: var(--text-secondary);
   
   a {
     text-decoration: none;
     font-weight: 500;
-    color: #007bff;
+    color: var(--primary-color);
     transition: all 0.3s ease;
     
     &:hover {
-      color: #0056b3;
+      color: var(--accent-color);
     }
   }
 }
