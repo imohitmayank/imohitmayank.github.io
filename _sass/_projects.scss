@@ -2,15 +2,218 @@
   border-radius: $rounded-borders;
   text-decoration: none !important;
   margin: 10px auto;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
 
-  .card-img-top {
+  .card-img-wrapper {
+    height: 200px;
+    overflow: hidden;
     border-radius: $rounded-borders $rounded-borders 0 0;
+    
+    .card-img-top {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease;
+      border-radius: 0;
+    }
   }
 
-  transition: transform 400ms;
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .project-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // Show max 3 lines
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 4.8rem; // ~3 lines at 1.6 line-height
+    cursor: help;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.8em;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    background-color: transparent !important;
+    color: #B7AB98 !important;
+    border: 1px solid #B7AB98 !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: #B7AB98 !important;
+      color: white !important;
+    }
+  }
+
+  transition: transform 400ms ease, box-shadow 400ms ease;
 
   &:hover:not(.post) {
     transform: translateY(-8px);
     box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+    
+    .card-img-wrapper .card-img-top {
+      transform: scale(1.05);
+    }
+  }
+}
+
+// Carousel specific styles
+.projects-section {
+  margin-bottom: 4rem;
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    
+    .section-title {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.5rem; // Same as navbar brand
+      font-weight: 500; // Same as navbar brand
+      margin-bottom: 0.5rem;
+      color: var(--primary-color);
+    }
+    
+    .section-subtitle {
+      font-family: "Poppins", sans-serif;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+}
+
+.project-carousel {
+  position: relative;
+  padding: 0 30px;
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      opacity: 1;
+      background: var(--primary-color);
+      color: white;
+      border-color: var(--primary-color);
+    }
+    
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  
+  .carousel-control-prev {
+    left: -20px;
+  }
+  
+  .carousel-control-next {
+    right: -20px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .carousel-indicators {
+    bottom: -40px;
+    
+    li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 0 4px;
+      background-color: transparent;
+      border: 1px solid var(--text-secondary);
+      opacity: 0.6;
+      transition: all 0.3s ease;
+      
+      &.active {
+        opacity: 1;
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .project-carousel {
+    padding: 0 15px;
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+  
+  .projects-section {
+    margin-bottom: 3rem;
+    
+    .section-header {
+      margin-bottom: 2rem;
+      
+      .section-title {
+        font-size: 1.3rem;
+      }
+      
+      .section-subtitle {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
+  .project.card {
+    min-height: 350px;
+    
+    .card-img-wrapper {
+      height: 180px;
+    }
+    
+    .card-title {
+      font-size: 1.1rem;
+    }
+    
+    .card-text {
+      font-size: 0.9rem;
+    }
+    
+    .project-description {
+      -webkit-line-clamp: 2; // Show only 2 lines on mobile
+      max-height: 3.2rem; // ~2 lines at 1.6 line-height
+    }
   }
 }
