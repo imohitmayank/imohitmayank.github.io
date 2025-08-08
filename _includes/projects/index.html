@@ -50,7 +50,7 @@
 {% endif %}
 
 <!-- Local Projects grouped by category -->
-{%- assign categories = "Professional,Personal,Educational,Visualization" | split: "," -%}
+{%- assign categories = "Personal,Educational,Visualization" | split: "," -%}
 
 {% for category in categories %}
   {%- assign category_projects = site.projects | where: 'category', category -%}
@@ -61,8 +61,7 @@
         <p class="section-subtitle">
           {% case category %}
             {% when 'Educational' %}Knowledge sharing through lectures, guides, and presentations
-            {% when 'Personal' %}Open-source tools and creative experiments  
-            {% when 'Professional' %}Commercial projects and professional work
+            {% when 'Personal' %}Somethings are worth sharing for free
             {% when 'Visualization' %}Interactive visualizations and mathematical art
             {% else %}{{ category }} projects
           {% endcase %}
@@ -71,59 +70,38 @@
       
       <div id="{{ category | slugify }}Carousel" class="carousel slide project-carousel" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
-          <!-- First slide with up to 3 projects -->
-          <div class="carousel-item active">
-            <div class="row">
-              {% for project in category_projects limit: 3 %}
-                {%- assign project_type  = "local" -%}
-                {%- assign project_id    = project.name | slugify -%}
-                {%- assign project_img   = project.image -%}
-                {%- assign project_name  = project.name -%}
-                {%- assign project_desc  = project.description -%}
-                {%- assign project_tools = project.tools -%}
-
-                {%- if project.external_url -%}
-                  {%- assign project_url = project.external_url -%}
-                {%- else -%}
-                  {%- assign project_url = project.url | relative_url -%}
-                {%- endif -%}
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                  <div class="project-card-wrapper">
-                    {% include projects/project-card.html %}
-                  </div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
+          {%- assign total_projects = category_projects.size -%}
+          {%- assign total_slides = total_projects | divided_by: 3.0 | ceil -%}
           
-          <!-- Second slide with remaining projects if more than 3 -->
-          {% if category_projects.size > 3 %}
-            <div class="carousel-item">
-              <div class="row">
-                {% for project in category_projects offset: 3 %}
-                  {%- assign project_type  = "local" -%}
-                  {%- assign project_id    = project.name | slugify -%}
-                  {%- assign project_img   = project.image -%}
-                  {%- assign project_name  = project.name -%}
-                  {%- assign project_desc  = project.description -%}
-                  {%- assign project_tools = project.tools -%}
+          {% for slide_num in (0..total_slides) %}
+            {%- assign slide_index = slide_num | times: 3 -%}
+            {%- if slide_index < total_projects -%}
+              <div class="carousel-item {% if slide_num == 0 %}active{% endif %}">
+                <div class="row">
+                  {% for project in category_projects offset: slide_index limit: 3 %}
+                    {%- assign project_type  = "local" -%}
+                    {%- assign project_id    = project.name | slugify -%}
+                    {%- assign project_img   = project.image -%}
+                    {%- assign project_name  = project.name -%}
+                    {%- assign project_desc  = project.description -%}
+                    {%- assign project_tools = project.tools -%}
 
-                  {%- if project.external_url -%}
-                    {%- assign project_url = project.external_url -%}
-                  {%- else -%}
-                    {%- assign project_url = project.url | relative_url -%}
-                  {%- endif -%}
+                    {%- if project.external_url -%}
+                      {%- assign project_url = project.external_url -%}
+                    {%- else -%}
+                      {%- assign project_url = project.url | relative_url -%}
+                    {%- endif -%}
 
-                  <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                    <div class="project-card-wrapper">
-                      {% include projects/project-card.html %}
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="project-card-wrapper">
+                        {% include projects/project-card.html %}
+                      </div>
                     </div>
-                  </div>
-                {% endfor %}
+                  {% endfor %}
+                </div>
               </div>
-            </div>
-          {% endif %}
+            {%- endif -%}
+          {% endfor %}
         </div>
         
         <!-- Carousel controls (show for all categories for consistency) -->
@@ -136,11 +114,15 @@
             <span class="sr-only">Next</span>
           </a>
           
-          <!-- Indicators (only show if more than 3 projects) -->
-          {% if category_projects.size > 3 %}
+          <!-- Indicators (dynamically generated based on number of slides) -->
+          {% if total_slides > 1 %}
             <ol class="carousel-indicators">
-              <li data-target="#{{ category | slugify }}Carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#{{ category | slugify }}Carousel" data-slide-to="1"></li>
+              {% for slide_num in (0..total_slides) %}
+                {%- assign slide_index = slide_num | times: 3 -%}
+                {%- if slide_index < total_projects -%}
+                  <li data-target="#{{ category | slugify }}Carousel" data-slide-to="{{ slide_num }}" {% if slide_num == 0 %}class="active"{% endif %}></li>
+                {%- endif -%}
+              {% endfor %}
             </ol>
           {% endif %}
       </div>
