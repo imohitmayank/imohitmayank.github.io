@@ -1,5 +1,6 @@
 ---
 name: The Barnsley Fern
+category: Visualization
 tools: [visualize, processing, p5]
 image: ../visualize/The_Barnsley_Fern/Barnsley.gif
 description: Auto generating Barnsley Fern. 

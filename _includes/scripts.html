@@ -20,3 +20,39 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
+<!-- Theme Toggle Script -->
+<script>
+$(document).ready(function() {
+    const themeToggle = $('#themeToggle');
+    const themeIcon = $('#themeIcon');
+    const htmlElement = $('html');
+    
+    // Check for saved theme preference or default to 'dark'
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    
+    // Apply the theme on page load
+    htmlElement.attr('data-theme', currentTheme);
+    updateThemeIcon(currentTheme);
+    
+    // Theme toggle click handler
+    themeToggle.on('click', function() {
+        const currentTheme = htmlElement.attr('data-theme') || 'dark';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        // Update the theme
+        htmlElement.attr('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+    });
+    
+    // Update theme icon based on current theme
+    function updateThemeIcon(theme) {
+        if (theme === 'dark') {
+            themeIcon.removeClass('fa-moon').addClass('fa-sun');
+        } else {
+            themeIcon.removeClass('fa-sun').addClass('fa-moon');
+        }
+    }
+});
+</script>

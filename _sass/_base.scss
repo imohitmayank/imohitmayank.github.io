@@ -1,11 +1,70 @@
 html{
   padding-left: calc(100vw - 100%);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  // background: linear-gradient(135deg, #ffffff 0%, #fbf8da 25%, #ffffff 50%, #fbf8da 75%, #ffffff 100%);
+  // background-size: 400% 400%;
+  // animation: gradientShift 8s ease infinite;
+  // min-height: 100vh;
 }
+
+// @keyframes gradientShift {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
 
 .badge {
   font-weight: 500;
+}
+
+// Global theme-aware styles
+.card, .card-body {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.border {
+  border-color: var(--border-color) !important;
+}
+
+.text-muted {
+  color: var(--text-secondary) !important;
+}
+
+// Ensure form elements work in dark mode
+.form-control {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+  
+  &:focus {
+    background-color: var(--card-bg);
+    border-color: var(--primary-color);
+    color: var(--text-color);
+    box-shadow: 0 0 0 0.2rem rgba(235, 89, 58, 0.25);
+  }
+}
+
+// Update links to work with theme
+a {
+  color: var(--primary-color);
+  
+  &:hover {
+    color: var(--primary-color);
+    opacity: 0.8;
+  }
 }

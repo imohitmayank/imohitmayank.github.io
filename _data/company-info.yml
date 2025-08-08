@@ -1,0 +1,29 @@
+- name: "O.XYZ"
+  designation: "Lead AI Engineer"
+  period: "Sep 2024 - Present"
+  order: 1
+  link: "https://o.xyz"
+  
+- name: "Outplay"
+  designation: "Lead Data Scientist"
+  period: "Nov 2021 - Aug 2024"
+  order: 2
+  link: "https://outplay.ai/"
+  
+- name: "AlgoAnalytics"
+  designation: "Senior Data Scientist"
+  period: "Mar 2021 - Nov 2021"
+  order: 3
+  link: "https://algoanalytics.com"
+  
+- name: "TCS"
+  designation: "Data Scientist"
+  period: "Aug 2016 - Feb 2021"
+  order: 4
+  link: "https://www.tcs.com/what-we-do/research"
+  
+- name: "C-DAC"
+  designation: "Research Intern"
+  period: "2015"
+  order: 5
+  link: "https://www.cdac.in"

@@ -1,55 +1,131 @@
 <!-- Remote Projects JS -->
 <script src="{{ '/assets/js/remote-projects.js' | relative_url }}"></script>
 
-<div class="card-columns m-3 mt-5">
+<!-- Remote Projects Section (if any) -->
+{% if page.remote_projects %}
+<div class="projects-section">
+  <div class="section-header">
+    <h2 class="section-title">GitHub Projects</h2>
+    <p class="section-subtitle">Open source repositories and contributions</p>
+  </div>
+  
+  <div id="remoteProjectsCarousel" class="carousel slide project-carousel" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          {% for remote_project in page.remote_projects limit: 3 %}
+            {%- for repo in site.github.public_repositories -%}
+              {%- if remote_project == repo.name -%}
+                {%- assign project = repo -%}
+              {%- endif -%}
+            {%- endfor -%}
 
-  <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
+            {%- assign words = project.name | split: '-' -%}
+            {%- capture titlecase -%}
+              {%- for word in words -%}
+                {{ word | capitalize | append: ' ' }}
+              {%- endfor -%}
+            {%- endcapture -%}
 
-    {%- for repo in site.github.public_repositories -%}
-      {%- if remote_project == repo.name -%}
-        {%- assign project = repo -%}
-      {%- endif -%}
-    {%- endfor -%}
+            {%- assign project_type = "remote" -%}
+            {%- assign project_id   = project.name -%}
+            {%- assign project_img  = false -%}
+            {%- assign project_name = titlecase | strip -%}
+            {%- assign project_desc = project.description -%}
+            {%- assign project_url  = project.html_url -%}
 
-    {%- assign words = project.name | split: '-' -%}
-    {%- capture titlecase -%}
-      {%- for word in words -%}
-        {{ word | capitalize | append: ' ' }}
-      {%- endfor -%}
-    {%- endcapture -%}
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="project-card-wrapper">
+                {% include projects/project-card.html %}
+              </div>
+            </div>
 
-    {%- assign project_type = "remote" -%}
-    {%- assign project_id   = project.name -%}
-    {%- assign project_img  = false -%}
-    {%- assign project_name = titlecase | strip -%}
-    {%- assign project_desc = project.description -%}
-    {%- assign project_url  = project.html_url -%}
-
-    {% include projects/project-card.html %}
-
-    <script>get_tools("{{ site.github.owner_name }}/{{ remote_project }}")</script>
-
-  {% endfor %}
-
-  <!-- Local Projects -->
-  {% for project in site.projects %}
-
-    {%- assign project_type  = "local" -%}
-    {%- assign project_id    = project.name | slugify -%}
-    {%- assign project_img   = project.image -%}
-    {%- assign project_name  = project.name -%}
-    {%- assign project_desc  = project.description -%}
-    {%- assign project_tools = project.tools -%}
-
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
-    {%- else -%}
-      {%- assign project_url = project.url | relative_url -%}
-    {%- endif -%}
-
-    {% include projects/project-card.html %}
-
-  {% endfor %}
-
+            <script>get_tools("{{ site.github.owner_name }}/{{ remote_project }}")</script>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+{% endif %}
+
+<!-- Local Projects grouped by category -->
+{%- assign categories = "Personal,Educational,Visualization" | split: "," -%}
+
+{% for category in categories %}
+  {%- assign category_projects = site.projects | where: 'category', category -%}
+  {% if category_projects.size > 0 %}
+    <div class="projects-section">
+      <div class="section-header">
+        <h2 class="section-title">{{ category }}</h2>
+        <p class="section-subtitle">
+          {% case category %}
+            {% when 'Educational' %}Knowledge sharing through lectures, guides, and presentations
+            {% when 'Personal' %}Somethings are worth sharing for free
+            {% when 'Visualization' %}Interactive visualizations and mathematical art
+            {% else %}{{ category }} projects
+          {% endcase %}
+        </p>
+      </div>
+      
+      <div id="{{ category | slugify }}Carousel" class="carousel slide project-carousel" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+          {%- assign total_projects = category_projects.size -%}
+          {%- assign total_slides = total_projects | divided_by: 3.0 | ceil -%}
+          
+          {% for slide_num in (0..total_slides) %}
+            {%- assign slide_index = slide_num | times: 3 -%}
+            {%- if slide_index < total_projects -%}
+              <div class="carousel-item {% if slide_num == 0 %}active{% endif %}">
+                <div class="row">
+                  {% for project in category_projects offset: slide_index limit: 3 %}
+                    {%- assign project_type  = "local" -%}
+                    {%- assign project_id    = project.name | slugify -%}
+                    {%- assign project_img   = project.image -%}
+                    {%- assign project_name  = project.name -%}
+                    {%- assign project_desc  = project.description -%}
+                    {%- assign project_tools = project.tools -%}
+
+                    {%- if project.external_url -%}
+                      {%- assign project_url = project.external_url -%}
+                    {%- else -%}
+                      {%- assign project_url = project.url | relative_url -%}
+                    {%- endif -%}
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="project-card-wrapper">
+                        {% include projects/project-card.html %}
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+        
+        <!-- Carousel controls (show for all categories for consistency) -->
+          <a class="carousel-control-prev" href="#{{ category | slugify }}Carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#{{ category | slugify }}Carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          
+          <!-- Indicators (dynamically generated based on number of slides) -->
+          {% if total_slides > 1 %}
+            <ol class="carousel-indicators">
+              {% for slide_num in (0..total_slides) %}
+                {%- assign slide_index = slide_num | times: 3 -%}
+                {%- if slide_index < total_projects -%}
+                  <li data-target="#{{ category | slugify }}Carousel" data-slide-to="{{ slide_num }}" {% if slide_num == 0 %}class="active"{% endif %}></li>
+                {%- endif -%}
+              {% endfor %}
+            </ol>
+          {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

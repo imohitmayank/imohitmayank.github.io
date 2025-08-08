@@ -1,15 +1,108 @@
-<div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
-
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+<div class="row justify-content-center align-items-center p-4 landing-container">
+  <!-- Centered text content -->
+  <div class="col-12 text-center mt-4 landing-text-section">
+    <div class="landing-intro">
+      <h1 class="landing-greeting">Hi, I am</h1>
+      <div class="dynamic-title-container">
+        <h1 class="dynamic-title">
+          <span id="dynamic-role" class="dynamic-role"></span>
+        </h1>
+      </div>
+      <div class="experience-text">
+        <h3 class="experience-text-heading">with battle-tested experience in</h3>
+        <div class="dynamic-skills-container">
+          <h3 class="dynamic-skills">
+            <span id="dynamic-skill" class="dynamic-skill"></span>
+          </h3>
+        </div>
       </div>
     </div>
-
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
-
   </div>
 </div>
+
+<!-- Auto-scrolling text script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const roles = [
+    'AI Engineer 🤖',
+    'Gamer 🎮',
+    'Researcher 🔬', 
+    'Code Wizard ✨',
+    'Tech Blogger 📝',
+    'Lecturer 🎓'
+  ];
+  
+  const skills = [
+    'Large Language Models 🧠',
+    'Debugging at 3 AM 🌙',
+    'Deep Learning 🧮',
+    'Turning Coffee into Code ⚡',
+    'Multi-Modal AI 🎨',
+    'Knowledge Graphs 📚',
+  ];
+  
+  const roleElement = document.getElementById('dynamic-role');
+  const skillElement = document.getElementById('dynamic-skill');
+  
+  let currentRoleIndex = 0;
+  let currentSkillIndex = 0;
+  
+  function typeWriter(element, text, callback) {
+    // Split text into an array that properly handles emojis and Unicode characters
+    const chars = [...text];
+    let i = 0;
+    element.textContent = '';
+    
+    function type() {
+      if (i < chars.length) {
+        element.textContent += chars[i];
+        i++;
+        setTimeout(type, 100); // Typing speed
+      } else {
+        setTimeout(callback, 2000); // Pause before next cycle
+      }
+    }
+    type();
+  }
+  
+  function eraseText(element, callback) {
+    let text = element.textContent;
+    // Split text into an array that properly handles emojis and Unicode characters
+    const chars = [...text];
+    let i = chars.length;
+    
+    function erase() {
+      if (i > 0) {
+        i--;
+        element.textContent = chars.slice(0, i).join('');
+        setTimeout(erase, 50); // Erasing speed
+      } else {
+        setTimeout(callback, 500); // Pause before typing next
+      }
+    }
+    erase();
+  }
+  
+  function cycleRoles() {
+    typeWriter(roleElement, roles[currentRoleIndex], function() {
+      eraseText(roleElement, function() {
+        currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+        cycleRoles();
+      });
+    });
+  }
+  
+  function cycleSkills() {
+    typeWriter(skillElement, skills[currentSkillIndex], function() {
+      eraseText(skillElement, function() {
+        currentSkillIndex = (currentSkillIndex + 1) % skills.length;
+        cycleSkills();
+      });
+    });
+  }
+  
+  // Start the cycles with a slight delay between them
+  cycleRoles();
+  setTimeout(cycleSkills, 1000);
+});
+</script>

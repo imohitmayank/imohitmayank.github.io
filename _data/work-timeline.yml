@@ -1,0 +1,260 @@
+- title: "OriginStudio - Vibe Coding Tool"
+  description: "Web based Vibe Coding tool that lets you create production ready projects with FE/BE from scratch with MCP integration. Like Cursor, v0 and Lovable"
+  company: "O.XYZ"
+  category: "Generative AI"
+  domain: "Code Generation"
+  time_period: "Sep 2024 - Present"
+  technologies: ["Coding Agents", "MCP", "Sandbox", "Gitea", "Supabase", "Logto"]
+  position_x: 25
+  position_y: 10
+  link: "https://o.xyz"
+
+- title: "OCEAN - AI Search Engine"
+  description: "One of the world's fastest AI Search engine, powered by Cerebras chips, to take on the likes of Perplexity; supports deep research, document upload, tool calling, agentic behavior, public APIs"
+  company: "O.XYZ"
+  category: "Generative AI"
+  domain: "AI Search"
+  time_period: "Sep 2024 - Present"
+  technologies: ["LLMs", "Guardrails", "LangGraph", "MCP", "FastAPI", "Cerebras", "RAG"]
+  position_x: 15
+  position_y: 20
+  link: "https://ocean.o.xyz"
+
+- title: "Miss O - Voice Assistant"
+  description: "Low Latency Voice Assistant for voice to voice conversation with AI; also developed a version for underage audience designed with utmost ethical considerations"
+  company: "O.XYZ"
+  category: "Generative AI"
+  domain: "Voice Assistant"
+  time_period: "Sep 2024 - Present"
+  technologies: ["VAD", "STT (Inhouse)", "RAG", "LLMs", "TTS (Cerebras, ElevenLabs)", "LiveKit"]
+  position_x: 30
+  position_y: 30
+  link: "https://ocean.o.xyz"
+
+
+- title: "Voice Authentication"
+  description: "Authenticate user to login to the O.XYZ systems via their Voice, based on their latent audio biometric details"
+  company: "O.XYZ"
+  category: "Generative AI"
+  domain: "Authentication"
+  time_period: "Sep 2024 - Present"
+  technologies: ["Audio AI Models", "Semantic match", "Privy integration", "FastAPI", "Security"]
+  position_x: 10
+  position_y: 40
+  link: "https://id.o.xyz"
+
+- title: "O Routing Intelligence"
+  description: "A dynamic framework that utilizes multiple LLMs to improve task-specific accuracy and efficiency by intelligently routing queries to the most suitable model; Improved performance on MMLU, MuSR, ARC, and BBH"
+  company: "O.XYZ"
+  category: "Generative AI"
+  domain: "LLM Optimization"
+  time_period: "Sep 2024 - Present"
+  technologies: ["Routing Intelligence", "Constraint optimization", "Query to Task identification"]
+  position_x: 35
+  position_y: 50
+  link: "https://arxiv.org/abs/2502.10051"
+
+- title: "SureConnect.ai"
+  description: "AI powered phone number validating product that 10x the dial-to-connect ratio. Automatically calls and converses with prospect to identify if it has reached correct number or not, find the best to call, detect call outcome"
+  company: "Outplay"
+  category: "Product"
+  domain: "Sales Intelligence"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["Speech Recognition", "Text-to-Speech", "LLM", "Dialog Management", "Twilio"]
+  position_x: 85
+  position_y: 15
+  link: "https://sureconnect.ai/"
+  
+- title: "Conversation Intelligence"
+  description: "AI powered meeting analysis product that joins ongoing calls to identify prospect's concerns, suggesting answers, perform live mood detection and after the call ends, performs further advanced analysis"
+  company: "Outplay"
+  category: "Product"
+  domain: "Sales Intelligence"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["Speech Recognition", "Speaker Identification", "Mentions Identification"]
+  position_x: 75
+  position_y: 25
+  link: "https://outplay.ai/features/conversation-intelligence-software"
+
+- title: "SalesEmail Assistant"
+  description: "Multi-task AI assistant that writes highly personalized mail from scratch for sales representatives and provides recommendations to enhance existing sales mails by gamifying the complete process"
+  company: "Outplay"
+  category: "Product"
+  domain: "Sales Intelligence"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["Mail Scoring", "Sentiment", "Tones", "Spam words", "Paraphrasing"]
+  position_x: 90
+  position_y: 35
+  link: "https://outplay.ai/features#write"
+
+- title: "In-House Transcription System"
+  description: "Speech-to-text (ASR) services for live and offline sales call transcription; comparable to the likes of AWS Transcribe"
+  company: "Outplay"
+  category: "Audio Intelligence"
+  domain: "Speech Recognition"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["Wav2Vec2", "HuBERT", "WordBoost", "Custom Vocabulary", "Websocket"]
+  position_x: 65
+  position_y: 45
+
+- title: "Speaker Diarization and Identification"
+  description: "Segregate and recognize different speakers in a call by comparing against the available speaker's voice prints"
+  company: "Outplay"
+  category: "Audio Intelligence"
+  domain: "Speech Recognition"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["SpeechBrain", "Bi-encoder", "Audio Embeddings"]
+  position_x: 80
+  position_y: 55
+
+- title: "SalesGPT"
+  description: "Training and Deploying inhouse LLMs to make it more domain aware for Sales related downstream tasks. Explored 3rd party models like GPT-4 for evaluation"
+  company: "Outplay"
+  category: "Generative AI"
+  domain: "LLM Training"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["GPT4", "ChatGPT", "LLaMA", "Quantization", "QLoRA", "Flash Attention", "LangChain"]
+  position_x: 95
+  position_y: 65
+
+- title: "Voice Cloning"
+  description: "Inhouse models to support creation of fast and accurate voice clones of Non-Western voices with very few examples or with fine-tuning approach"
+  company: "Outplay"
+  category: "Generative AI"
+  domain: "Audio Synthesis"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["XTTSv2", "tortoise-tts", "Transformers", "Quantization", "LoRA"]
+  position_x: 70
+  position_y: 75
+
+- title: "Resolution Notes Mining"
+  description: "Mine L1/L2/L3's alert resolution notes to generate rules to automate frequently occurring errors"
+  company: "TCS"
+  category: "NLP"
+  domain: "IT Operations"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Pattern finding and matching", "Association rule mining"]
+  position_x: 50
+  position_y: 75
+
+- title: "Enterprise Revenue Prediction"
+  description: "Revenue forecasting of company's hierarchical business units with ~91% accuracy"
+  company: "TCS"
+  category: "Forecasting"
+  domain: "Business Analytics"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Time series forecasting", "ARIMA", "Holt Winters", "HTS"]
+  position_x: 40
+  position_y: 85
+
+- title: "Enterprise Sales"
+  description: "Hybrid recommendation system to generate B2B suggestions for company's Sales team with major focus on accuracy and explainability"
+  company: "TCS"
+  category: "Recommendation System"
+  domain: "Sales Analytics"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Recommendation Systems", "Cross-Sell", "Up-Sell", "Day 0 Sell"]
+  position_x: 35
+  position_y: 75
+
+- title: "System Expert Assignment"
+  description: "Given an IT system alert, automatically find the best L1/L2/L3 resolver and assign the task; done by performing multiple objective optimization, leading to reduction of overall MTTR by 30%"
+  company: "TCS"
+  category: "Optimization"
+  domain: "IT Operations"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Ranking algorithms", "Multi-objective optimization", "Resource allocation"]
+  position_x: 50
+  position_y: 55
+
+- title: "Personalized Pricing Model"
+  description: "Find optimal Batch analytics pricing by minimizing jobs in analysis with minimum adverse effect on SLA prediction accuracy"
+  company: "TCS"
+  category: "Optimization"
+  domain: "Pricing Strategy"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Graph reduction", "Subset finding", "Price optimization"]
+  position_x: 45
+  position_y: 45
+
+- title: "Root-Cause Analysis"
+  description: "Incident management on structural graph of the enterprise to identify correct root cause for a system level event"
+  company: "TCS"
+  category: "Causality Analysis"
+  domain: "IT Operations"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Correlation vs Causality", "Graph traversal", "Multi-modal analysis"]
+  position_x: 55
+  position_y: 35
+
+- title: "What-If Analysis"
+  description: "Model causality graph of an enterprise to perform intervention on behavior of services and ask counterfactual business analysis questions"
+  company: "TCS"
+  category: "Causality Analysis"
+  domain: "Business Analytics"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Product Behavior Simulation", "Confounding analysis", "Prediction"]
+  position_x: 40
+  position_y: 25
+
+- title: "Business Card Reader"
+  description: "OCR engine to extract entities from multilingual business cards for ultra-fast personnel contact onboarding"
+  company: "TCS"
+  category: "Computer Vision"
+  domain: "OCR"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Optical Character Recognition", "NER", "Validity check"]
+  position_x: 55
+  position_y: 95
+
+- title: "Math Formula Recognition"
+  description: "Extract handwritten math expressions from documents for fast digitalization and education purposes"
+  company: "TCS"
+  category: "Computer Vision"
+  domain: "OCR"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Optical Character Recognition", "LaTeX n-gram model"]
+  position_x: 45
+  position_y: 65
+
+- title: "FAQ Chatbot"
+  description: "Virtual assistant for project's flagship solution that increased daily impressions by 10% and reduced human intervention by 40%"
+  company: "TCS"
+  category: "NLP"
+  domain: "Customer Service"
+  time_period: "Aug 2016 - Feb 2021"
+  technologies: ["Chatbot", "Question and Answer identification"]
+  position_x: 60
+  position_y: 85
+
+- title: "Indian Companies Knowledge Graph"
+  description: "Create a KG containing the enterprise-level details for Indian companies (like Crunchbase); analyze graph to find similar company and recommend potential acquisitions and investments"
+  company: "AlgoAnalytics"
+  category: "NLP"
+  domain: "Knowledge Graphs"
+  time_period: "March 2021 - Oct 2021"
+  technologies: ["Knowledge Graphs", "Recommendation System", "Information Extraction"]
+  position_x: 85
+  position_y: 75
+
+- title: "Social Media Trend Analyzer"
+  description: "Analyze the trend of product, person or any entity on Social media like Twitter"
+  company: "AlgoAnalytics"
+  category: "NLP"
+  domain: "Social Media Analytics"
+  time_period: "March 2021 - Oct 2021"
+  technologies: ["NER", "Social media scraper", "Trend forecasting", "Sentiment", "Tones"]
+  position_x: 90
+  position_y: 85
+
+- title: "IoT Speech Recognition Engine"
+  description: "Design and developed IoT Speech Recognition engine in Indian languages and deployed it on low-power hardware as a low-cost solution for the rural population"
+  company: "C-DAC"
+  category: "Speech Recognition"
+  domain: "IoT"
+  time_period: "2015"
+  technologies: ["Speech Recognition", "IoT", "Indian languages"]
+  position_x: 75
+  position_y: 5
+
+

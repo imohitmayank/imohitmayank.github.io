@@ -1,0 +1,139 @@
+<div class="work-timeline-container">
+  <!-- Header Section -->
+  <div class="work-header">
+    <h1 class="work-title">Work</h1>
+    <p class="work-subtitle">A chronological timeline of my career milestones and projects</p>
+  </div>
+
+  <!-- Timeline -->
+  <div class="timeline-wrapper">
+    
+    {% assign grouped_projects = site.data.work-timeline | group_by: 'company' %}
+    {% assign sorted_companies = site.data.company-info | sort: 'order' %}
+    
+    {% for company_info in sorted_companies %}
+      {% assign company_projects = grouped_projects | where: 'name', company_info.name | first %}
+      {% if company_projects %}
+        <div class="timeline-company-group {{ company_info.name | downcase | replace: ' ', '' | replace: '.', '' | replace: '-', '' }}">
+          <div class="company-header">
+            <div class="company-info">
+              <h3 class="company-name">{{ company_info.name }}</h3>
+              <span class="company-designation">{{ company_info.designation }}</span>
+            </div>
+            <div class="company-period-wrapper">
+              <span class="company-period">{{ company_info.period }}</span>
+              {% if company_info.link %}
+                <a href="{{ company_info.link }}" target="_blank" rel="noopener noreferrer" class="company-visit-icon">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+          
+          <div class="projects-list">
+            {% for project in company_projects.items %}
+              {% if project.link %}
+                <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+              {% else %}
+                <div class="project-card">
+              {% endif %}
+                
+                <div class="project-header">
+                  <div class="project-icon">
+                    {% case project.category %}
+                      {% when 'Generative AI' %}
+                        <i class="fas fa-brain"></i>
+                      {% when 'Product' %}
+                        <i class="fas fa-rocket"></i>
+                      {% when 'Audio Intelligence' %}
+                        <i class="fas fa-microphone"></i>
+                      {% when 'NLP' %}
+                        <i class="fas fa-language"></i>
+                      {% when 'Computer Vision' %}
+                        <i class="fas fa-eye"></i>
+                      {% when 'Forecasting' %}
+                        <i class="fas fa-chart-line"></i>
+                      {% when 'Recommendation System' %}
+                        <i class="fas fa-thumbs-up"></i>
+                      {% when 'Optimization' %}
+                        <i class="fas fa-cogs"></i>
+                      {% when 'Causality Analysis' %}
+                        <i class="fas fa-project-diagram"></i>
+                      {% when 'Speech Recognition' %}
+                        <i class="fas fa-volume-up"></i>
+                      {% when 'Data Visualization' %}
+                        <i class="fas fa-chart-bar"></i>
+                      {% when 'Reinforcement Learning' %}
+                        <i class="fas fa-robot"></i>
+                      {% else %}
+                        <i class="fas fa-star"></i>
+                    {% endcase %}
+                  </div>
+                  <h4 class="project-title">{{ project.title }}</h4>
+                  {% if project.link %}
+                    <div class="visit-icon">
+                      <i class="fas fa-external-link-alt"></i>
+                    </div>
+                  {% endif %}
+                </div>
+                
+                <p class="project-description">{{ project.description }}</p>
+                
+                <div class="project-meta">
+                  <div class="meta-item">
+                    <strong>Category:</strong> <span>{{ project.category }}</span>
+                  </div>
+                  <div class="meta-item">
+                    <strong>Domain:</strong> <span>{{ project.domain }}</span>
+                  </div>
+                  <div class="meta-item">
+                    <strong>Technologies:</strong>
+                    <div class="tech-tags">
+                      {% for tech in project.technologies %}
+                        <span class="tech-tag">{{ tech }}</span>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              
+              {% if project.link %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+// Add scroll animations for cards
+document.addEventListener('DOMContentLoaded', function() {
+  // Animate project cards on scroll
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
+  
+  // Observe all project cards
+  document.querySelectorAll('.project-card').forEach(card => {
+    observer.observe(card);
+  });
+  
+  // Observe company groups
+  document.querySelectorAll('.timeline-company-group').forEach(group => {
+    observer.observe(group);
+  });
+});
+</script>
