@@ -8,6 +8,7 @@
   position_x: 25
   position_y: 10
   link: "https://o.xyz"
+  image: "../img/work-timeline/oxyz_origin_studio.gif"
 
 - title: "OCEAN - AI Search Engine"
   description: "One of the world's fastest AI Search engine, powered by Cerebras chips, to take on the likes of Perplexity; supports deep research, document upload, tool calling, agentic behavior, public APIs"
@@ -19,6 +20,7 @@
   position_x: 15
   position_y: 20
   link: "https://ocean.o.xyz"
+  image: "../img/work-timeline/oxyz_ocean_mobile.jpg"
 
 - title: "Miss O - Voice Assistant"
   description: "Low Latency Voice Assistant for voice to voice conversation with AI; also developed a version for underage audience designed with utmost ethical considerations"
@@ -30,6 +32,7 @@
   position_x: 30
   position_y: 30
   link: "https://ocean.o.xyz"
+  video: "../img/work-timeline/oxyz_misso.mp4"
 
 
 - title: "Voice Authentication"
@@ -42,6 +45,7 @@
   position_x: 10
   position_y: 40
   link: "https://id.o.xyz"
+  video: "../img/work-timeline/voice_auth.mp4"
 
 - title: "O Routing Intelligence"
   description: "A dynamic framework that utilizes multiple LLMs to improve task-specific accuracy and efficiency by intelligently routing queries to the most suitable model; Improved performance on MMLU, MuSR, ARC, and BBH"
@@ -53,6 +57,7 @@
   position_x: 35
   position_y: 50
   link: "https://arxiv.org/abs/2502.10051"
+  image: "../img/ori_paper.png"
 
 - title: "SureConnect.ai"
   description: "AI powered phone number validating product that 10x the dial-to-connect ratio. Automatically calls and converses with prospect to identify if it has reached correct number or not, find the best to call, detect call outcome"
@@ -64,6 +69,7 @@
   position_x: 85
   position_y: 15
   link: "https://sureconnect.ai/"
+  image: "../img/work-timeline/sureconnectai.jpg"
   
 - title: "Conversation Intelligence"
   description: "AI powered meeting analysis product that joins ongoing calls to identify prospect's concerns, suggesting answers, perform live mood detection and after the call ends, performs further advanced analysis"
@@ -75,8 +81,9 @@
   position_x: 75
   position_y: 25
   link: "https://outplay.ai/features/conversation-intelligence-software"
+  image: "../img/work-timeline/conversation_intelligence.jpeg"
 
-- title: "SalesEmail Assistant"
+- title: "Sales Email Assistant"
   description: "Multi-task AI assistant that writes highly personalized mail from scratch for sales representatives and provides recommendations to enhance existing sales mails by gamifying the complete process"
   company: "Outplay"
   category: "Product"
@@ -86,16 +93,7 @@
   position_x: 90
   position_y: 35
   link: "https://outplay.ai/features#write"
-
-- title: "In-House Transcription System"
-  description: "Speech-to-text (ASR) services for live and offline sales call transcription; comparable to the likes of AWS Transcribe"
-  company: "Outplay"
-  category: "Audio Intelligence"
-  domain: "Speech Recognition"
-  time_period: "Nov 2021 - Aug 2024"
-  technologies: ["Wav2Vec2", "HuBERT", "WordBoost", "Custom Vocabulary", "Websocket"]
-  position_x: 65
-  position_y: 45
+  image: "../img/work-timeline/mail_writer.jpeg"
 
 - title: "Speaker Diarization and Identification"
   description: "Segregate and recognize different speakers in a call by comparing against the available speaker's voice prints"
@@ -106,8 +104,19 @@
   technologies: ["SpeechBrain", "Bi-encoder", "Audio Embeddings"]
   position_x: 80
   position_y: 55
+  image: "https://mohitmayank.com/a_lazy_data_science_guide/imgs/audio_speakerdiarization_intro.png"
+  
+- title: "In-House Transcription System"
+  description: "Speech-to-text (ASR) services for live and offline sales call transcription; comparable to the likes of AWS Transcribe."
+  company: "Outplay"
+  category: "Audio Intelligence"
+  domain: "Speech Recognition"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["Wav2Vec2", "HuBERT", "WordBoost", "Custom Vocabulary", "Websocket"]
+  position_x: 65
+  position_y: 45
 
-- title: "SalesGPT"
+- title: "Sales GPT"
   description: "Training and Deploying inhouse LLMs to make it more domain aware for Sales related downstream tasks. Explored 3rd party models like GPT-4 for evaluation"
   company: "Outplay"
   category: "Generative AI"
