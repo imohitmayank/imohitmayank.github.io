@@ -76,8 +76,28 @@
                     </div>
                   {% endif %}
                 </div>
+
+                {% if project.image or project.video %}
+                <div class="project-media">
+                  {% if project.image %}
+                    <img src="{{ project.image }}" alt="{{ project.title }} image" style="width: 100%; max-height: 300px; object-fit: cover; object-position: top; border-radius: 8px; margin-bottom: 15px; margin-top: 15px;">
+                  {% endif %}
+                  {% if project.video %}
+                    <video controls style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px; margin-top: 15px;">
+                      <source src="{{ project.video }}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  {% endif %}
+                </div>
+                {% endif %}
                 
                 <p class="project-description">{{ project.description }}</p>
+                
+                {% if project.text %}
+                <div class="project-text" style="margin-top: 15px;">
+                  {{ project.text | markdownify }}
+                </div>
+                {% endif %}
                 
                 <div class="project-meta">
                   <div class="meta-item">
