@@ -83,6 +83,18 @@
   link: "https://outplay.ai/features/conversation-intelligence-software"
   image: "../img/work-timeline/conversation_intelligence.jpeg"
 
+- title: "AI Sequence Generator"
+  description: "World-class sales sequence generator powered by AI that creates multi-channel sequences with call scripts, email templates, and follow-up strategies. Generates sequences for outbound, inbound, follow-ups, events, and recruitment in under a minute"
+  company: "Outplay"
+  category: "Generative AI"
+  domain: "Sales Intelligence"
+  time_period: "Nov 2021 - Aug 2024"
+  technologies: ["LLMs", "Multi-channel Sequences", "Call Scripts", "Email Generation", "Sales Automation"]
+  position_x: 85
+  position_y: 25
+  link: "https://outplay.ai/ai-sequence-generator"
+  image: "../img/work-timeline/outplay_sequencegenerator.jpeg"
+
 - title: "Sales Email Assistant"
   description: "Multi-task AI assistant that writes highly personalized mail from scratch for sales representatives and provides recommendations to enhance existing sales mails by gamifying the complete process"
   company: "Outplay"
