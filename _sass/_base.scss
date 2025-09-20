@@ -62,9 +62,278 @@ body {
 // Update links to work with theme
 a {
   color: var(--primary-color);
-  
+
   &:hover {
     color: var(--primary-color);
     opacity: 0.8;
+  }
+}
+
+// Enhanced strong element styling - only for specific contexts
+.about-intro strong,
+.styled-list strong {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+strong.highlight {
+  background: linear-gradient(120deg, rgba(235, 89, 58, 0.1) 0%, rgba(235, 89, 58, 0.05) 100%);
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+  border: 1px solid rgba(235, 89, 58, 0.2);
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+// About intro specific styling
+.about-intro {
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+  }
+
+  strong.domain-highlight {
+    background: linear-gradient(135deg, rgba(235, 89, 58, 0.15) 0%, rgba(235, 89, 58, 0.08) 100%);
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+    border: 1px solid rgba(235, 89, 58, 0.3);
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(235, 89, 58, 0.1);
+  }
+}
+
+// About Page Styling - merged with above
+.about-intro {
+  margin: 2rem 0;
+}
+
+.professional-section,
+.academic-section,
+.personal-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, var(--card-bg) 0%, rgba(235, 89, 58, 0.05) 100%);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+  }
+
+  .section-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--primary-color);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  .section-content {
+    background: transparent;
+    border-radius: 8px;
+    padding: 0;
+    backdrop-filter: none;
+    border: none;
+    color: var(--text-color);
+
+    p {
+      color: var(--text-color);
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.styled-list {
+  list-style: none;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+    color: var(--text-color);
+
+    &::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: var(--primary-color);
+    }
+  }
+}
+
+.nested-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+
+  li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+    color: var(--text-color);
+
+    &::before {
+      content: "◦";
+      position: absolute;
+      left: 0;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+  }
+}
+
+.cta-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 2px solid var(--primary-color);
+  font-family: "Poppins", sans-serif;
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    color: var(--text-color);
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.connect-section {
+  margin: 2rem 0 3rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  font-family: "Poppins", sans-serif;
+
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--text-color);
+
+    &:first-child {
+      font-weight: 600;
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &:last-child {
+      font-style: italic;
+      color: var(--text-secondary);
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  .professional-section,
+  .academic-section,
+  .personal-section {
+    background: linear-gradient(135deg, var(--card-bg) 0%, rgba(235, 89, 58, 0.1) 100%);
+    border-color: var(--border-color);
+
+    .section-header {
+      border-bottom-color: var(--primary-color);
+    }
+  }
+
+  .connect-section {
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(235, 89, 58, 0.05) 100%);
+    border: 1px solid var(--border-color);
+  }
+
+  .cta-section {
+    background: var(--card-bg);
+    border-color: var(--primary-color);
+  }
+
+  // Enhanced strong styling for dark mode
+  .about-intro strong.domain-highlight {
+    background: linear-gradient(135deg, rgba(235, 89, 58, 0.2) 0%, rgba(235, 89, 58, 0.12) 100%);
+    border-color: rgba(235, 89, 58, 0.4);
+    box-shadow: 0 2px 4px rgba(235, 89, 58, 0.15);
+  }
+
+  .styled-list strong,
+  .about-intro strong {
+    color: var(--primary-color);
+  }
+
+  strong.highlight {
+    background: linear-gradient(120deg, rgba(235, 89, 58, 0.15) 0%, rgba(235, 89, 58, 0.08) 100%);
+    border-color: rgba(235, 89, 58, 0.3);
+  }
+}
+
+// Responsive design for about sections
+@media (max-width: 768px) {
+  .professional-section,
+  .academic-section,
+  .personal-section {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .about-intro .lead {
+    font-size: 1.1rem;
+  }
+
+  .cta-section,
+  .connect-section {
+    padding: 1.5rem;
+  }
+
+  .section-header h3 {
+    font-size: 1.3rem;
+  }
+
+  // Responsive strong styling
+  .about-intro strong.domain-highlight {
+    padding: 0.15em 0.3em;
+    font-size: 0.95em;
+  }
+
+  strong.highlight {
+    padding: 0.05em 0.25em;
   }
 }

@@ -5,37 +5,96 @@ permalink: /about/
 weight: 5
 ---
 
-<!-- # **About Me**
+# **About Me**
 <br>
 
-Hey, I’m Mohit Mayank, a Lead AI Engineer and Data Scientist with 9+ years of hands-on experience helping SaaS startups and enterprises set up, scale, and supercharge their AI capabilities.
+<div class="about-intro">
+  <p class="lead text-center">
+    This is Mohit. I have 9+ years of experience in AI/ML, actively contributing across <strong class="domain-highlight">professional</strong>, <strong class="domain-highlight">academic</strong>, and <strong class="domain-highlight">personal</strong> domains.
+  </p>
+</div>
 
-## What I Do
-I specialize in building and deploying cutting-edge AI solutions with expertise spanning over Generative AI (Text & Audio), Large Language Models (LLMs), Reinforcement Learning, Knowledge Graphs, and advanced Audio & Computer Vision systems. Whether you’re looking to launch an AI-powered product, optimize existing workflows, or make sense of complex data, I bring a blend of deep technical know-how and practical business acumen to every project.
+---
 
-## My Journey
-- **Current**: Lead AI Engineer at O.XYZ, where I architect world-class AI products like OCEAN (a blazing-fast AI search engine), Miss O (low-latency voice assistant), and ORI (dynamic multi-LLM routing frameworks).
-- **Previously**: Led AI innovation at Outplay, driving products such as SureConnect.ai, Conversation Intelligence, and in-house ASR systems that transformed sales and communication for global teams.
-- **Past Experience**: Tata Research Development and Design Centre (TCS), AlgoAnalytics, and CDAC, delivering impactful NLP, forecasting, recommendation, and optimization solutions.
+<!-- ## **Professional Perspective** 👔 -->
 
-## Notable Projects & Achievements
-- **Products**: Creator of “Jaal” (open-source network visualization), Sankshep (AI-powered research summarizer), Law Finder, and more.
-- **Awards**: Winner, TCS SUPERCoder 2019 (1st out of 20,000+), Digitate Ideathon Winner.
-- **Publications**: Published papers on LLM Routing, Knowledge Graphs Fake News detection and Embeddings. 
-- **Articles**: Author of “A Lazy Data Science Guide” and technical articles on LLMs, Knowledge Graphs, Explainable AI, and RL.
-- **Speaker & Mentor**: Guest lecturer and collaborator with top universities; passionate about sharing knowledge and nurturing the next generation of AI talent.
+<div class="professional-section">
+  <div class="section-header">
+    <h3>Professional Experience</h3>
+  </div>
+  <div class="section-content">
+    <ul class="styled-list">
+      <li><strong>Leadership Roles:</strong> I have held both hands-on and leadership roles, most recently as Head of AI at O.XYZ and Lead Data Scientist at Outplay, where I drove AI strategy and technical vision across organizations.</li>
+      <li><strong>Domain Expertise:</strong> My work spans domains such as multi-modal generative AI, voice intelligence, recommendation systems, root cause analytics, etc, covering the entire lifecycle from ideation and research to production deployment.</li>
+      <li><strong>Flagship Products:</strong> I have developed flagship products including:
+        <ul class="nested-list">
+          <li><strong>OriginStudio</strong> - A Vibe Coding platform akin to v0 and Lovable</li>
+          <li><strong>OCEAN</strong> - One of the world's fastest AI search engines</li>
+          <li><strong>SureConnect.ai</strong> - AI-powered voice-calling sales agent</li>
+          <li><strong>Conversation Intelligence</strong> - A meeting bot for scheduling, data capture, advanced analytics, and CTAs</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
-## Why Work With Me?
-- **Full-Stack AI Expertise**: From research to production, I cover the entire AI lifecycle-ideation, prototyping, deployment, and scaling.
-- **Domain Versatility**: Proven track record in Web3 and Web2 - Sales, Finance, Retail, and beyond.
-- **Open Source & Community**: Active contributor and creator in the AI/ML open-source ecosystem.
-- **Results-Driven**: My solutions don’t just work-they deliver measurable business impact.
+---
 
-Want to connect with me? [Book a 1:1 chat with me on Topmate](https://topmate.io/mohit_mayank)
+<!-- ## **Academic Perspective** 🎓 -->
 
-Let's build the future of AI together.
+<div class="academic-section">
+  <div class="section-header">
+    <h3>Academic Contributions</h3>
+  </div>
+  <div class="section-content">
+    <ul class="styled-list">
+      <li><strong>University Collaboration:</strong> I have collaborated with universities as a guest lecturer and co-authored research publications with professors.</li>
+      <li><strong>Lecture Topics:</strong> My lectures have spanned topics like Knowledge Graphs and Graph Neural Networks, covering both deep technical details and high-level applications.</li>
+      <li><strong>Research Publications:</strong> My research work includes papers such as:
+        <ul class="nested-list">
+          <li><strong>ORI</strong> - Dynamic LLM request routing</li>
+          <li><strong>Fact-checker</strong> - Using Reinforcement Learning with Knowledge Graph Reasoning</li>
+          <li><strong>DEAP-FAKED</strong> - A knowledge-graph-based approach for fake news detection</li>
+          <li><strong>xAI on Embeddings</strong> - Intrinsic analysis for dual word embedding space models</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
-## Resume -->
+---
+
+<!-- ## **Personal Perspective** 🚀 -->
+
+<div class="personal-section">
+  <div class="section-header">
+    <h3>Personal Contributions</h3>
+  </div>
+  <div class="section-content">
+    <ul class="styled-list">
+      <li><strong>Open Source & Education:</strong> I am an active open source contributor, educator, and tech influencer on social media.</li>
+      <li><strong>Key Projects:</strong> I created and open-sourced:
+        <ul class="nested-list">
+          <li><strong>Jaal</strong> - Python package for interactive network visualization</li>
+          <li><strong>Sankshep</strong> - Website summarizing Arxiv research</li>
+          <li><strong>ML Dojo</strong> - Daily AI newsletter</li>
+          <li><strong>Fine-tuned TTS and LLM models</strong> - Published on HuggingFace</li>
+        </ul>
+      </li>
+      <li><strong>Book:</strong> I am the author of <a href="https://mohitmayank.com/a_lazy_data_science_guide/" target="_blank"><strong>"A Lazy Data Science Guide"</strong></a>, an online book covering a range of topics including NLP, audio intelligence, network science, data science tools, machine learning, and reinforcement learning.</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<div class="cta-section text-center">
+  <p class="mb-3"><strong>Here is a more detailed overview of <a href="https://mohitmayank.com/work" target="_blank">my work</a>, <a href="https://mohitmayank.com/projects" target="_blank">my projects</a>, or <a href="https://mohitmayank.com/research" target="_blank">my research</a>.<br>Check out my resume below.</strong></p>
+</div>
+
+---
+
+## Resume
 
 <div class="container-fluid p-0 resume-fullpage">
   <div class="row no-gutters">
@@ -69,6 +128,13 @@ Let's build the future of AI together.
       </div>
     </div>
   </div>
+</div>
+
+---
+
+<div class="connect-section">
+  <p class="text-center">Want to connect with me? <a href="https://topmate.io/mohit_mayank" target="_blank">Book a 1:1 chat</a> or <a href="mailto:mohitmayank1@gmail.com">mail me</a></p>
+  <p class="text-center"><em>Let's build the future of AI together.</em></p>
 </div>
 
 <script>
