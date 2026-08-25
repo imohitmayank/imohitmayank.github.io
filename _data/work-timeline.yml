@@ -1,9 +1,53 @@
+- title: "Enterprise RAG at Scale"
+  description: "Millisecond-latency enterprise RAG system that serves thousands of customers and millions of requests every month, automatically generating answers grounded in each organization's proprietary knowledge."
+  company: "Loopio"
+  category: "Generative AI"
+  domain: "Enterprise RAG / Search"
+  time_period: "Jan 2026 - Present"
+  technologies: ["Agentic Search", "LLMs", "Information Retrieval", "Hybrid Search", "Cross-encoder Reranker"]
+  position_x: 20
+  position_y: 8
+  link: "https://loopio.com/platform/confident-answers/"
+
+- title: "Agentic Memory using Knowledge Graphs"
+  description: "Enterprise-grade knowledge layer that gives AI systems persistent, structured, and contextual memory by transforming unstructured organizational content into a Factual Knowledge Base (FKB) powered by knowledge graphs."
+  company: "Loopio"
+  category: "Generative AI"
+  domain: "Knowledge Engineering / Memory"
+  time_period: "Jan 2026 - Present"
+  technologies: ["LLMs", "Knowledge Graphs", "Agentic Memory", "Information Extraction", "Ontology", "Entity Linking"]
+  position_x: 28
+  position_y: 18
+  link: "https://loopio.com"
+
+- title: "Librarian Agent"
+  description: "AI agent that continuously maintains enterprise knowledge hygiene by detecting duplicates, conflicting, and stale information, reasoning over evidence, and guiding users through human-in-the-loop resolution workflows."
+  company: "Loopio"
+  category: "Generative AI"
+  domain: "Agentic AI / Enterprise Knowledge"
+  time_period: "Jan 2026 - Present"
+  technologies: ["Finetuned SLMs", "Scheduled AI Agents", "MCP", "Explainable AI"]
+  position_x: 15
+  position_y: 28
+  link: "https://loopio.com"
+
+- title: "Agentic AI Evaluation Platform"
+  description: "Agentic evaluation platform that automates the lifecycle of enterprise AI experiments—from dataset and metric selection to model execution, evaluation, tracing, and reporting—turning weeks of manual evaluation into hours."
+  company: "Loopio"
+  category: "Generative AI"
+  domain: "AI Evaluation / MLOps"
+  time_period: "Jan 2026 - Present"
+  technologies: ["Managed AI Agents", "LLMs", "MLflow", "Databricks", "MCP", "Experiment Tracking"]
+  position_x: 32
+  position_y: 38
+  link: "https://loopio.com"
+
 - title: "OriginStudio - Vibe Coding Tool"
   description: "Web based Vibe Coding tool that lets you create production ready projects with FE/BE from scratch with MCP integration. Like Cursor, v0 and Lovable"
   company: "O.XYZ"
   category: "Generative AI"
   domain: "Code Generation"
-  time_period: "Sep 2024 - Present"
+  time_period: "Sep 2024 - Aug 2025"
   technologies: ["Coding Agents", "MCP", "Sandbox", "Gitea", "Supabase", "Logto"]
   position_x: 25
   position_y: 10
@@ -15,7 +59,7 @@
   company: "O.XYZ"
   category: "Generative AI"
   domain: "AI Search"
-  time_period: "Sep 2024 - Present"
+  time_period: "Sep 2024 - Aug 2025"
   technologies: ["LLMs", "Guardrails", "LangGraph", "MCP", "FastAPI", "Cerebras", "RAG"]
   position_x: 15
   position_y: 20
@@ -27,7 +71,7 @@
   company: "O.XYZ"
   category: "Generative AI"
   domain: "Voice Assistant"
-  time_period: "Sep 2024 - Present"
+  time_period: "Sep 2024 - Aug 2025"
   technologies: ["VAD", "STT (Inhouse)", "RAG", "LLMs", "TTS (Cerebras, ElevenLabs)", "LiveKit"]
   position_x: 30
   position_y: 30
@@ -40,7 +84,7 @@
   company: "O.XYZ"
   category: "Generative AI"
   domain: "Authentication"
-  time_period: "Sep 2024 - Present"
+  time_period: "Sep 2024 - Aug 2025"
   technologies: ["Audio AI Models", "Semantic match", "Privy integration", "FastAPI", "Security"]
   position_x: 10
   position_y: 40
@@ -52,7 +96,7 @@
   company: "O.XYZ"
   category: "Generative AI"
   domain: "LLM Optimization"
-  time_period: "Sep 2024 - Present"
+  time_period: "Sep 2024 - Aug 2025"
   technologies: ["Routing Intelligence", "Constraint optimization", "Query to Task identification"]
   position_x: 35
   position_y: 50

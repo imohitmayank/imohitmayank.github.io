@@ -24,12 +24,14 @@ weight: 5
   </div>
   <div class="section-content">
     <ul class="styled-list">
-      <li><strong>Leadership Roles:</strong> I have held both hands-on and leadership roles, most recently as Head of AI at O.XYZ and Lead Data Scientist at Outplay, where I drove AI strategy and technical vision across organizations.</li>
-      <li><strong>Domain Expertise:</strong> My work spans domains such as multi-modal generative AI, voice intelligence, recommendation systems, root cause analytics, etc, covering the entire lifecycle from ideation and research to production deployment.</li>
+      <li><strong>Leadership Roles:</strong> I have held both hands-on and leadership roles, most recently as Senior Manager of AI at Loopio, Head of AI at O.XYZ, and Lead Data Scientist at Outplay, where I drove AI strategy and technical vision across organizations.</li>
+      <li><strong>Domain Expertise:</strong> My work spans domains such as Enterprise RAG, Agentic AI, Knowledge Graphs, Multi-modal Generative AI, Voice Intelligence, Recommendation Systems, Root Cause Analytics, etc, covering the entire lifecycle from ideation and research to production deployment.</li>
       <li><strong>Flagship Products:</strong> I have developed flagship products including:
         <ul class="nested-list">
+          <li><strong>Enterprise RAG at Scale</strong> - Production RAG serving millions of requests monthly</li>
+          <li><strong>Agentic Memory using Knowledge Graphs</strong> - Enterprise knowledge layer for persistent AI memory</li>
           <li><strong>OriginStudio</strong> - A Vibe Coding platform akin to v0 and Lovable</li>
-          <li><strong>OCEAN</strong> - One of the world's fastest AI search engines</li>
+          <li><strong>OCEAN</strong> - One of the world's fastest AI search engines (powered by Cerebras)</li>
           <li><strong>SureConnect.ai</strong> - AI-powered voice-calling sales agent</li>
           <li><strong>Conversation Intelligence</strong> - A meeting bot for scheduling, data capture, advanced analytics, and CTAs</li>
         </ul>
