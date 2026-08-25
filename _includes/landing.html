@@ -22,87 +22,87 @@
 
 <!-- Auto-scrolling text script -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const roles = [
-    'AI Engineer 🤖',
-    'Gamer 🎮',
-    'Researcher 🔬', 
-    'Code Wizard ✨',
-    'Tech Blogger 📝',
-    'Lecturer 🎓'
-  ];
-  
-  const skills = [
-    'Large Language Models 🧠',
-    'Debugging at 3 AM 🌙',
-    'Deep Learning 🧮',
-    'Turning Coffee into Code ⚡',
-    'Multi-Modal AI 🎨',
-    'Knowledge Graphs 📚',
-  ];
-  
-  const roleElement = document.getElementById('dynamic-role');
-  const skillElement = document.getElementById('dynamic-skill');
-  
-  let currentRoleIndex = 0;
-  let currentSkillIndex = 0;
-  
-  function typeWriter(element, text, callback) {
-    // Split text into an array that properly handles emojis and Unicode characters
-    const chars = [...text];
-    let i = 0;
-    element.textContent = '';
-    
-    function type() {
-      if (i < chars.length) {
-        element.textContent += chars[i];
-        i++;
-        setTimeout(type, 100); // Typing speed
-      } else {
-        setTimeout(callback, 2000); // Pause before next cycle
+  document.addEventListener('DOMContentLoaded', function () {
+    const roles = [
+      'AI Engineer 🤖',
+      'Gamer 🎮',
+      'Researcher 🔬',
+      'Code Wizard ✨',
+      'Tech Blogger 📝',
+      'Lecturer 🎓'
+    ];
+
+    const skills = [
+      'Large Language Models 🧠',
+      'Debugging at 3 AM 🌙',
+      'Deep Learning 🧮',
+      'Turning Coffee into Code ⚡',
+      'Multi-Modal AI 🎨',
+      'Knowledge Graphs 📚',
+    ];
+
+    const roleElement = document.getElementById('dynamic-role');
+    const skillElement = document.getElementById('dynamic-skill');
+
+    let currentRoleIndex = 0;
+    let currentSkillIndex = 0;
+
+    function typeWriter(element, text, callback) {
+      // Split text into an array that properly handles emojis and Unicode characters
+      const chars = [...text];
+      let i = 0;
+      element.textContent = '';
+
+      function type() {
+        if (i < chars.length) {
+          element.textContent += chars[i];
+          i++;
+          setTimeout(type, 100); // Typing speed
+        } else {
+          setTimeout(callback, 2000); // Pause before next cycle
+        }
       }
+      type();
     }
-    type();
-  }
-  
-  function eraseText(element, callback) {
-    let text = element.textContent;
-    // Split text into an array that properly handles emojis and Unicode characters
-    const chars = [...text];
-    let i = chars.length;
-    
-    function erase() {
-      if (i > 0) {
-        i--;
-        element.textContent = chars.slice(0, i).join('');
-        setTimeout(erase, 50); // Erasing speed
-      } else {
-        setTimeout(callback, 500); // Pause before typing next
+
+    function eraseText(element, callback) {
+      let text = element.textContent;
+      // Split text into an array that properly handles emojis and Unicode characters
+      const chars = [...text];
+      let i = chars.length;
+
+      function erase() {
+        if (i > 0) {
+          i--;
+          element.textContent = chars.slice(0, i).join('');
+          setTimeout(erase, 50); // Erasing speed
+        } else {
+          setTimeout(callback, 500); // Pause before typing next
+        }
       }
+      erase();
     }
-    erase();
-  }
-  
-  function cycleRoles() {
-    typeWriter(roleElement, roles[currentRoleIndex], function() {
-      eraseText(roleElement, function() {
-        currentRoleIndex = (currentRoleIndex + 1) % roles.length;
-        cycleRoles();
+
+    function cycleRoles() {
+      typeWriter(roleElement, roles[currentRoleIndex], function () {
+        eraseText(roleElement, function () {
+          currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+          cycleRoles();
+        });
       });
-    });
-  }
-  
-  function cycleSkills() {
-    typeWriter(skillElement, skills[currentSkillIndex], function() {
-      eraseText(skillElement, function() {
-        currentSkillIndex = (currentSkillIndex + 1) % skills.length;
-        cycleSkills();
+    }
+
+    function cycleSkills() {
+      typeWriter(skillElement, skills[currentSkillIndex], function () {
+        eraseText(skillElement, function () {
+          currentSkillIndex = (currentSkillIndex + 1) % skills.length;
+          cycleSkills();
+        });
       });
-    });
-  }
-  
-  // Start the cycles with a slight delay between them
-  cycleRoles();
-  setTimeout(cycleSkills, 1000);
-});
+    }
+
+    // Start the cycles with a slight delay between them
+    cycleRoles();
+    setTimeout(cycleSkills, 1000);
+  });
 </script>

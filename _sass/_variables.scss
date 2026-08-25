@@ -1,11 +1,11 @@
-$primary:   #EB593A;
+$primary: #EB593A;
 $secondary: #B7AB98;
-$success:   #28a745;
-$info:      #17a2b8;
-$warning:   #ffc107;
-$danger:    #dc3545;
-$light:     #f8f9fa;
-$dark:      #343a40;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
 
 $rounded-borders: 15px;
 
@@ -21,7 +21,7 @@ $rounded-borders: 15px;
   --border-color: #e9ecef;
   --primary-color: #EB593A;
   --accent-color: #B7AB98;
-  
+
   // Dark theme colors
   &[data-theme="dark"] {
     --bg-color: #121212;
