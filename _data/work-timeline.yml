@@ -4,7 +4,7 @@
   category: "Generative AI"
   domain: "Enterprise RAG / Search"
   time_period: "Jan 2026 - Present"
-  technologies: ["Agentic Search", "LLMs", "Information Retrieval", "Hybrid Search", "Cross-encoder Reranker"]
+  technologies: ["Agentic Retrieval", "Learned Reranking", "Query Planning", "Retrieval Optimization", "High-Throughput Inference"]
   position_x: 20
   position_y: 8
   link: "https://loopio.com/platform/confident-answers/"
@@ -15,7 +15,7 @@
   category: "Generative AI"
   domain: "Knowledge Engineering / Memory"
   time_period: "Jan 2026 - Present"
-  technologies: ["LLMs", "Knowledge Graphs", "Agentic Memory", "Information Extraction", "Ontology", "Entity Linking"]
+  technologies: ["Knowledge Representation", "Knowledge Graphs", "Entity Resolution", "Ontology Engineering", "Long-Term AI Memory"]
   position_x: 28
   position_y: 18
   link: "https://loopio.com"
@@ -26,7 +26,7 @@
   category: "Generative AI"
   domain: "Agentic AI / Enterprise Knowledge"
   time_period: "Jan 2026 - Present"
-  technologies: ["Finetuned SLMs", "Scheduled AI Agents", "MCP", "Explainable AI"]
+  technologies: ["Autonomous AI Agents", "Knowledge Governance", "Evidence-Based Reasoning", "Conflict Resolution", "Human-in-the-Loop", "Small Language Models"]
   position_x: 15
   position_y: 28
   link: "https://loopio.com"
@@ -37,7 +37,7 @@
   category: "Generative AI"
   domain: "AI Evaluation / MLOps"
   time_period: "Jan 2026 - Present"
-  technologies: ["Managed AI Agents", "LLMs", "MLflow", "Databricks", "MCP", "Experiment Tracking"]
+  technologies: ["Agent Evaluation", "Experiment Orchestration", "LLM-as-a-Judge", "Evaluation Pipelines", "Observability", "Reproducible AI"]
   position_x: 32
   position_y: 38
   link: "https://loopio.com"
