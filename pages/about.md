@@ -75,8 +75,9 @@ weight: 5
   <div class="section-content">
     <ul class="styled-list">
       <li><strong>Open Source & Education:</strong> I am an active open source contributor, educator, and tech influencer on social media.</li>
-      <li><strong>Key Projects:</strong> I created and open-sourced:
+      <li><strong>Key Projects:</strong> I build and ship products, and contribute open source:
         <ul class="nested-list">
+          <li><strong><a href="https://kritr.com/mylabstory/" target="_blank">MyLabStory</a></strong> (<a href="https://apps.apple.com/in/app/mylabstory/id6757186292" target="_blank">App Store</a>) - iOS app that turns scattered lab reports into a searchable health history with biomarker trends and AI Q&amp;A</li>
           <li><strong>Jaal</strong> - Python package for interactive network visualization</li>
           <li><strong>Sankshep</strong> - Website summarizing Arxiv research</li>
           <li><strong>ML Dojo</strong> - Daily AI newsletter</li>
