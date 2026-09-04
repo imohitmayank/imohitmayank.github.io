@@ -1,0 +1,8 @@
+---
+name: MyLabStory
+category: Personal
+tools: [iOS, AI, Health, OCR, Biomarkers, RAG]
+image: ../img/mylabstory-project-preview.jpg
+description: Your health journey, decoded. Upload lab PDFs and photos — MyLabStory extracts biomarkers, builds timelines, writes plain-English summaries, and lets you ask questions from your own health history. Available on the App Store.
+external_url: https://kritr.com/mylabstory/
+---
