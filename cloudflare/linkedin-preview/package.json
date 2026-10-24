@@ -1,0 +1,11 @@
+{
+  "name": "mohitmayank-linkedin-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/strip.test.mjs"
+  },
+  "devDependencies": {
+    "miniflare": "3.20250718.3"
+  }
+}

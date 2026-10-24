@@ -1,0 +1,10 @@
+name = "mohitmayank-linkedin-preview"
+main = "src/index.js"
+compatibility_date = "2026-10-24"
+workers_dev = false
+
+# Route worker: fetch(request) goes to the GitHub Pages origin, not back
+# through this worker. Only LinkedInBot HTML is rewritten.
+routes = [
+  { pattern = "mohitmayank.com/*", zone_name = "mohitmayank.com" },
+]

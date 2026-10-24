@@ -12,13 +12,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description | escape }}">
-
-  <title>{{ site.title }}</title>
-
   {% if page.url == "/" %}
-  <meta property="og:title" content="Mohit Mayank">
-  <meta property="og:description" content="AI engineer, researcher, and author of A Lazy Data Science Guide. Battle-tested work in large language models, knowledge graphs, and multi-modal AI.">
+  {% assign share_title = "Mohit Mayank — AI Engineer, Researcher, and Author" %}
+  {% assign share_description = "AI engineer, researcher, and author of A Lazy Data Science Guide. Language models, knowledge graphs, and multi-modal AI." %}
+  <title>{{ share_title }}</title>
+  <meta name="description" content="{{ share_description }}">
+  <meta property="og:title" content="{{ share_title }}">
+  <meta property="og:site_name" content="Mohit Mayank">
+  <meta property="og:description" content="{{ share_description }}">
   <meta property="og:url" content="https://mohitmayank.com/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://mohitmayank.com/assets/og/preview.jpg">
@@ -34,10 +35,13 @@
   <meta property="og:video:width" content="1200">
   <meta property="og:video:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mohit Mayank">
-  <meta name="twitter:description" content="AI engineer, researcher, and author of A Lazy Data Science Guide. Battle-tested work in large language models, knowledge graphs, and multi-modal AI.">
+  <meta name="twitter:title" content="{{ share_title }}">
+  <meta name="twitter:description" content="{{ share_description }}">
   <meta name="twitter:image" content="https://mohitmayank.com/assets/og/preview.jpg">
   <meta name="twitter:image:alt" content="Mohit Mayank — Hi, I am an AI Engineer, with battle-tested experience in large language models.">
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
   {% endif %}
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
