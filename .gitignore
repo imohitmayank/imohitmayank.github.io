@@ -14,5 +14,9 @@ Gemfile.lock
 # Vendor
 vendor/
 
+# Cloudflare worker toolchain
+node_modules/
+.wrangler/
+
 # Mac
 .DS_Store
