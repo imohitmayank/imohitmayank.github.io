@@ -6,7 +6,6 @@ _site/
 
 # Ruby Gems
 .bundle
-Gemfile.lock
 
 # Log Files
 *.log
